@@ -1,0 +1,52 @@
+$ g2c build test_dake_ch5 --no-video --no-llm-glossary
+### ЭТАП 1/7: Разбор главы и сканы
+{
+    'chapter': 'test_dake_ch5',
+    'pages': 8,
+    'units': 214,
+    'kinds': {'paragraph': 138, 'heading': 10, 'formula': 60, 'figure': 6},
+    'figures_with_model_description': 2,
+    'figures_without_description': 4,
+    'ocr_suspect': ['p075.03', 'p079.31', 'p089.13'],
+    'errata': 'нет',
+    'prereq_units': 0
+}
+Готово: 8 сканов в C:\Users\kosta\Documents\glava-kurs\work\test_dake_ch5\scans
+### ЭТАП 2/7: Учебный слой
+[12:30:45] Проход 1 — утверждения: 214 единиц, 6 порций
+[12:30:53]   стр. 78–78: 18 утв., 0 примеров, 0 задач (7.87 с)
+[12:30:54]   стр. 79–79: 17 утв., 1 примеров, 0 задач (8.69 с)
+[12:30:55]   стр. 77–77: 24 утв., 0 примеров, 0 задач (10.01 с)
+[12:30:56]   стр. 75–76: 30 утв., 0 примеров, 0 задач (10.61 с)
+[12:31:00]   стр. 87–87: 16 утв., 0 примеров, 0 задач (7.12 с)
+[12:31:47]   стр. 88–89: 18 утв., 0 примеров, 0 задач (52.57 с)
+[12:31:47]   проверка: 108 из 123 верны сразу, на исправление 15
+[12:31:55]   после исправления: отброшено 2
+[12:31:55] Проход 2 — план узлов из 121 утверждений, 2 порций по разделам
+[12:31:59]   5.4 THE LINEARIZATION OF EQUATION 5.1 FOR FLUIDS O: 56 утв. → 5 узлов (4.2 с)
+[12:32:49]   5.1 INTRODUCTION: 65 утв. → 6 узлов (53.79 с)
+[12:32:49]   узлов: 11
+[12:32:49] Проход 4 — поля узлов: 11 узлов, 3 вызовов
+[12:32:58]   flow_regimes_and_boundary_conditions, boltzmann_transformation_and_ode, exponential_integral_and_skin (8.87 с)
+[12:32:59]   sp_semi_steady_state, sp_steady_state_and_field_limits, linearization_of_radial_flow, compressibility_and_diffusivity (9.98 с)
+[12:33:02]   sp_radial_flow_eq, sp_mass_conservation_darcy, sp_compressibility_and_nonlinearity, sp_transient_condition (12.54 с)
+[12:33:02] Проход 5 — покрытие: 106 единиц без узла
+[12:33:59] Готово: {'chapter': 'test_dake_ch5', 'nodes': 11, 'prereq_nodes': 0, 'claims': 121, 'dropped_claims': 2, 'worked_examples': 1, 'book_tasks': 0, 'coverage': '214/214', 'final_issues': 0, 'minutes': 3.2}
+### ЭТАП 3/7: Маршрутизация форматов
+{'nodes': 11, 'formats': {'интерактив': 7, 'шортс': 2, 'практикум на данных': 2}, 'schema_errors': 0}
+### ЭТАП 4/7: Глоссарий
+{'added': 19, 'total': 70, 'notation_applied': 52, 'notation_new_entries': 51, 'english_from_books': 0, 'with_book_definition': 0, 'without_definition': 19}
+### ЭТАП 5/7: Задания
+[12:34:01] Задания: 11 шагов, 3 запросов
+[12:34:10]   7 заданий для 4 шагов (8.78 с)
+[12:34:54]   5 заданий для 4 шагов (52.8 с)
+[12:35:00]   6 заданий для 3 шагов (58.54 с)
+[12:35:00] Готово: {'tasks': 18, 'types': ['calc', 'gap', 'multiple', 'order', 'single'], 'dropped': 0, 'need_review': 1, 'meets_tz': True}
+### ЭТАП 6/7: Ролик
+### ЭТАП 7/7: Сайт курса
+Курс: C:\Users\kosta\Documents\glava-kurs\out\test_dake_ch5\index.html (0.3 МБ)
+Формулы: 103, не перевелись 0
+### ИТОГ: выполнено 6 из 7
+### ПРОПУЩЕНО: Ролик: выключен
+
+### EXIT 0

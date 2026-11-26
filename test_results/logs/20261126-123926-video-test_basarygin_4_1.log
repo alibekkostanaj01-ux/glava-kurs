@@ -1,0 +1,20 @@
+$ g2c video test_basarygin_4_1 --fmt short --node basarygin.sp_mud_volume_control
+[12:39:27]   сценарий не прошёл проверку (1), попытка исправления
+Спецификация: work/test_basarygin_4_1/video/test_basarygin_4_1.sp_mud_volume_control.short/spec.json · шаблон T0_schema_cards · сценарий: 
+gemini-3.5-flash-lite; шаблон: специального шаблона нет — универсальная схема (в отчёте покрытия: нужен новый)
+Проверка до рендера пройдена
+{
+    'ok': True,
+    'video': 'C:\\Users\\kosta\\Documents\\glava-kurs\\out\\video\\test_basarygin_4_1.sp_mud_volume_control.short.mp4',
+    'duration_s': 63.9,
+    'frames': 766,
+    'tempo_wpm': 120.5,
+    'loudness_lufs': -16.1,
+    'spec_errors_ignored': [],
+    'invariant_errors': [],
+    'passport': 'C:\\Users\\kosta\\Documents\\glava-kurs\\out\\video\\test_basarygin_4_1.sp_mud_volume_control.short.passport.json',
+    'passport_schema_errors': [],
+    'voice_ok': True
+}
+
+### EXIT 0

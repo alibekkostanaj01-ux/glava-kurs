@@ -1,0 +1,1034 @@
+[
+ {
+  "term": "АВПД",
+  "abbr": "АВПД",
+  "aliases": [
+   "аномально высокое пластовое давление"
+  ],
+  "definition": "Зона с постоянным нарастанием порового давления в проходимых глинистых породах, признаком которой служит устойчивое самопроизвольное увеличение механической скорости.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.sp_drilling_speed_anomalies#c2"
+   ],
+   "pages_pdf": [
+    232
+   ],
+   "node_id": "basarygin.sp_drilling_speed_anomalies"
+  },
+  "en": "",
+  "symbol": "",
+  "symbol_en": "abnormal (over)pressure",
+  "stress": "",
+  "say": "а вэ пэ дэ",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false,
+  "las": "",
+  "unit": "МПа",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "безопасный клапан",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Клапан, который устанавливают на колонну в открытом виде при возникновении проявления, после чего закрывают вместе с превентором.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.killing_methods_and_circulations#c2"
+   ],
+   "pages_pdf": [
+    316
+   ],
+   "node_id": "basarygin.killing_methods_and_circulations"
+  },
+  "en": "safety valve",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "газирование бурового раствора",
+  "abbr": "",
+  "aliases": [
+   "газирование"
+  ],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "газирование",
+  "symbol_en": "gas-cut mud",
+  "en": "",
+  "las": "",
+  "unit": "",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "газокаротажная станция",
+  "abbr": "",
+  "aliases": [
+   "станции контроля бурения"
+  ],
+  "definition": "Станция, используемая для контроля поступающего газа в буровом растворе.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.sp_gas_saturation_analysis#c14"
+   ],
+   "pages_pdf": [
+    236
+   ],
+   "node_id": "basarygin.sp_gas_saturation_analysis"
+  },
+  "en": "mud logging unit",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "газонефтеводопроявление",
+  "abbr": "ГНВП",
+  "aliases": [],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "",
+  "symbol_en": "kick",
+  "en": "influx of formation fluid",
+  "las": "",
+  "unit": "",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "глушение одной циркуляцией утяжелённым раствором",
+  "abbr": "",
+  "aliases": [
+   "метод ожидания и утяжеления"
+  ],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "метод ожидания и утяжеления",
+  "symbol_en": "wait-and-weight method",
+  "en": "",
+  "las": "",
+  "unit": "",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "избыточное давление в бурильных трубах после закрытия",
+  "abbr": "",
+  "aliases": [
+   "Pт"
+  ],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "Pт",
+  "symbol_en": "SIDPP",
+  "en": "shut-in drill pipe pressure",
+  "las": "",
+  "unit": "МПа",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "избыточное давление в затрубном пространстве после закрытия",
+  "abbr": "",
+  "aliases": [
+   "Pк"
+  ],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "Pк",
+  "symbol_en": "SICP",
+  "en": "shut-in casing pressure",
+  "las": "",
+  "unit": "МПа",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "индикатор потока",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Прибор, позволяющий обнаружить начавшееся проявление при превышении расхода на выходе на 10 % и более.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.sp_flow_rate_monitoring#c3"
+   ],
+   "pages_pdf": [
+    234
+   ],
+   "node_id": "basarygin.sp_flow_rate_monitoring"
+  },
+  "en": "flow sensor",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "кольцевой превентор",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Компонент устьевого оборудования, входящий в компоновку для герметизации скважины.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.well_closing_methods#c5"
+   ],
+   "pages_pdf": [
+    312
+   ],
+   "node_id": "basarygin.well_closing_methods"
+  },
+  "en": "",
+  "symbol": "превентор универсальный",
+  "symbol_en": "annular preventer",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false,
+  "las": "",
+  "unit": "",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "коэффициент безопасности",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Параметр, числовое значение которого принимают равным 1 МПа в зависимости от состояния скважины и давлений.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.killing_methods_and_circulations#c14"
+   ],
+   "pages_pdf": [
+    318
+   ],
+   "node_id": "basarygin.killing_methods_and_circulations"
+  },
+  "en": "safety factor",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "мерная емкость",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Емкость, объем которой должен в 1,2–1,5 раза превосходить объем бурильной колонны в скважине.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.sp_tripping_operations_control#c8"
+   ],
+   "pages_pdf": [
+    238
+   ],
+   "node_id": "basarygin.sp_tripping_operations_control"
+  },
+  "en": "trip tank",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "метод бурильщика",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Зарубежный метод глушения скважины, при котором во время циркуляции включают насос, открывают штуцер и регулируют его клапан для поддержания давления в кольцевом пространстве.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.killing_methods_and_circulations#c6",
+    "basarygin.killing_methods_and_circulations#c7"
+   ],
+   "pages_pdf": [
+    316
+   ],
+   "node_id": "basarygin.killing_methods_and_circulations"
+  },
+  "en": "",
+  "symbol": "метод бурильщика",
+  "symbol_en": "driller's method",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false,
+  "las": "",
+  "unit": "",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "метод ожидания и веса",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Зарубежный метод глушения скважины, при котором все работы проводят в один этап с использованием утяжеленного бурового раствора.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.killing_methods_and_circulations#c6",
+    "basarygin.killing_methods_and_circulations#c13"
+   ],
+   "pages_pdf": [
+    316,
+    317
+   ],
+   "node_id": "basarygin.killing_methods_and_circulations"
+  },
+  "en": "wait and weight method",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "механическая скорость бурения",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Скорость проходки, возрастание которой служит признаком газонефтеводопроявлений или углубления в зону АВПД.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.sp_drilling_speed_anomalies#c1",
+    "basarygin.sp_drilling_speed_anomalies#c2"
+   ],
+   "pages_pdf": [
+    231,
+    232
+   ],
+   "node_id": "basarygin.sp_drilling_speed_anomalies"
+  },
+  "en": "rate of penetration",
+  "symbol": "Vм",
+  "symbol_en": "ROP",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false,
+  "las": "",
+  "unit": "м/ч",
+  "notation_note": "«скачок проходки» = drilling break",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "неуправляемый выброс (открытый фонтан)",
+  "abbr": "",
+  "aliases": [
+   "выброс"
+  ],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "выброс",
+  "symbol_en": "blowout",
+  "en": "uncontrolled flow",
+  "las": "",
+  "unit": "",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "перелив при остановленных насосах",
+  "abbr": "",
+  "aliases": [
+   "перелив"
+  ],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "перелив",
+  "symbol_en": "flow check / well flowing",
+  "en": "",
+  "las": "",
+  "unit": "",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "плашечный превентор",
+  "abbr": "",
+  "aliases": [
+   "превентор плашечный"
+  ],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "превентор плашечный",
+  "symbol_en": "ram preventer",
+  "en": "",
+  "las": "",
+  "unit": "",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "плотность бурового раствора",
+  "abbr": "",
+  "aliases": [
+   "ρ"
+  ],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "ρ",
+  "symbol_en": "MW",
+  "en": "mud weight",
+  "las": "",
+  "unit": "г/см³",
+  "notation_note": "в США — ppg",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "превентор",
+  "abbr": "",
+  "aliases": [
+   "превенторы"
+  ],
+  "definition": "Устьевое оборудование, применяемое в качестве меры безопасности при бурении с уменьшением противодействия на пласты.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.drilling_safety_measures#c4"
+   ],
+   "pages_pdf": [
+    231
+   ],
+   "node_id": "basarygin.drilling_safety_measures"
+  },
+  "en": "preventer",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "преве́нтор",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "превентор с глухими плашками",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Элемент устьевого оборудования, используемый в компоновке превенторной сборки.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.well_closing_methods#c5"
+   ],
+   "pages_pdf": [
+    312
+   ],
+   "node_id": "basarygin.well_closing_methods"
+  },
+  "en": "blind ram preventer",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "приемная емкость",
+  "abbr": "",
+  "aliases": [
+   "приемных емкостях"
+  ],
+  "definition": "Емкость циркуляционной системы, увеличение объема бурового раствора в которой является прямым признаком притока пластового флюида.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.sp_mud_volume_control#c2",
+    "basarygin.sp_mud_volume_control#c1"
+   ],
+   "pages_pdf": [
+    231,
+    232
+   ],
+   "node_id": "basarygin.sp_mud_volume_control"
+  },
+  "en": "pit",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "прирост объёма в приёмной ёмкости",
+  "abbr": "",
+  "aliases": [
+   "ΔV"
+  ],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "ΔV",
+  "symbol_en": "pit gain",
+  "en": "",
+  "las": "",
+  "unit": "м³",
+  "notation_note": "прямой признак притока",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "противовыбросовое оборудование",
+  "abbr": "ПВО",
+  "aliases": [],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "",
+  "symbol_en": "BOP",
+  "en": "blowout preventer",
+  "las": "",
+  "unit": "",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "противодействие на пласты",
+  "abbr": "",
+  "aliases": [],
+  "definition": "При бурении скважин с уменьшением противодействия на пласты должны быть приняты определенные меры безопасности, включая прогнозирование пластового давления и проектирование конструкций скважин.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.drilling_safety_measures#c1",
+    "basarygin.drilling_safety_measures#c2"
+   ],
+   "pages_pdf": [
+    231
+   ],
+   "node_id": "basarygin.drilling_safety_measures"
+  },
+  "en": "formation backpressure",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "регулируемый дроссель",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Устройство, через которое при закрытом устье вымывают газовую пачку в забойной части при снижении давления в трубках.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.sp_gas_saturation_analysis#c13"
+   ],
+   "pages_pdf": [
+    236
+   ],
+   "node_id": "basarygin.sp_gas_saturation_analysis"
+  },
+  "en": "adjustable choke",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "регулируемый штуцер",
+  "abbr": "",
+  "aliases": [
+   "дроссель"
+  ],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "дроссель",
+  "symbol_en": "choke",
+  "en": "adjustable choke",
+  "las": "",
+  "unit": "",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "свабирование",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Процесс движения газовой пачки при подъеме бурильной колонны, который может вызывать снижение давления на насосах.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.sp_tripping_operations_control#c3"
+   ],
+   "pages_pdf": [
+    238
+   ],
+   "node_id": "basarygin.sp_tripping_operations_control"
+  },
+  "en": "swabbing",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "система сообщающихся сосудов",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Система, в которой перераспределение давлений происходит за счет снижения давления на буровых насосах из-за разницы плотностей пластовых флюидов и бурового раствора.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.sp_pump_pressure_redistribution#c1",
+    "basarygin.sp_pump_pressure_redistribution#c2"
+   ],
+   "pages_pdf": [
+    237
+   ],
+   "node_id": "basarygin.sp_pump_pressure_redistribution"
+  },
+  "en": "U-tube system",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "спускоподъёмные операции",
+  "abbr": "СПО",
+  "aliases": [],
+  "definition": "",
+  "definition_kind": "нет",
+  "related": "",
+  "source": {
+   "chapters": [],
+   "pages_pdf": []
+  },
+  "by_model": [],
+  "reviewed": false,
+  "check": "статья из таблицы обозначений",
+  "symbol": "",
+  "symbol_en": "tripping",
+  "en": "",
+  "las": "",
+  "unit": "",
+  "notation_note": "",
+  "notation_group": "Контроль скважины",
+  "en_source": "стандартная нотация SPE/SPWLA — проверить геологу"
+ },
+ {
+  "term": "уровнемер",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Устройство различных конструкций, применяемое для контроля уровня бурового раствора.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.sp_mud_volume_control#c3"
+   ],
+   "pages_pdf": [
+    232
+   ],
+   "node_id": "basarygin.sp_mud_volume_control"
+  },
+  "en": "mud level indicator",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "уровнеме́р",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "флюидопроявление",
+  "abbr": "",
+  "aliases": [
+   "флюидопроявлений",
+   "флюидопроявления"
+  ],
+  "definition": "Процесс поступления пластовых флюидов, для обнаружения которого на ранней стадии создаются специальные технические системы.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.drilling_safety_measures#c5",
+    "basarygin.sp_fluid_signs_intro#c1"
+   ],
+   "pages_pdf": [
+    231
+   ],
+   "node_id": "basarygin.drilling_safety_measures"
+  },
+  "en": "fluid influx",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "циркуляционная система",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Система, в которой поступление пластовых флюидов в ствол скважины отражается на гидравлических характеристиках циркуляционного потока и свойствах бурового раствора.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.sp_fluid_signs_intro#c1"
+   ],
+   "pages_pdf": [
+    231
+   ],
+   "node_id": "basarygin.sp_fluid_signs_intro"
+  },
+  "en": "circulation system",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ },
+ {
+  "term": "штуцерный манифольд",
+  "abbr": "",
+  "aliases": [],
+  "definition": "Элемент компоновки устьевого оборудования скважины.",
+  "source": {
+   "chapters": [
+    "test_basarygin_4_1"
+   ],
+   "claim_ids": [
+    "basarygin.well_closing_methods#c5"
+   ],
+   "pages_pdf": [
+    312
+   ],
+   "node_id": "basarygin.well_closing_methods"
+  },
+  "en": "choke manifold",
+  "symbol": "",
+  "symbol_en": "",
+  "stress": "",
+  "say": "",
+  "by_model": [
+   "definition_wording",
+   "en",
+   "symbol_en",
+   "stress",
+   "say"
+  ],
+  "check": "ok",
+  "reviewed": false
+ }
+]

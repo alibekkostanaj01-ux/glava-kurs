@@ -1,0 +1,515 @@
+{
+ "chapter": "test_dake_ch5",
+ "tasks": [
+  {
+   "id": "T001",
+   "type": "single",
+   "step_id": "dake.sp_radial_flow_eq",
+   "claim_ids": [
+    "dake.sp_radial_flow_eq#c3"
+   ],
+   "prompt": "Почему уравнение радиального течения 5.1 является нелинейным?",
+   "explanation": "Уравнение 5.1 является нелинейным, так как коэффициенты в обеих частях зависят от давления как зависимой переменной.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Потому что коэффициенты в обеих частях зависят от давления как зависимой переменной.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Потому что пористость породы равна нулю.",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "c",
+     "text": "Потому что давление в пласте распространяется со скоростью звука.",
+     "misconception": "misc.pressure_sound_speed"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T002",
+   "type": "gap",
+   "step_id": "dake.sp_radial_flow_eq",
+   "claim_ids": [
+    "dake.sp_radial_flow_eq#c4",
+    "dake.sp_radial_flow_eq#c5"
+   ],
+   "prompt": "Для получения аналитических решений уравнение необходимо линеаризовать, сделав зависимость коэффициентов від давления пренебрежимо {{1}}, что сводит уравнение 5.1 к радиальному уравнению {{2}}.",
+   "explanation": "Приближенная линеаризация для течения жидкости сводит уравнение 5.1 к радиальному уравнению пьезопроводности (diffusivity equation).",
+   "kind": "recall",
+   "answer": [
+    "малой",
+    "пьезопроводности"
+   ]
+  },
+  {
+   "id": "T003",
+   "type": "multiple",
+   "step_id": "dake.sp_mass_conservation_darcy",
+   "claim_ids": [
+    "dake.sp_mass_conservation_darcy#c1",
+    "dake.sp_mass_conservation_darcy#c2",
+    "dake.sp_mass_conservation_darcy#c3"
+   ],
+   "prompt": "Какие допущения принимаются при выводе радиального уравнения течения?",
+   "explanation": "При выводе принимается допущение об однородности, изотропности, вскрытии на всю толщину и полной насыщенности единственной фазой.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Пласт однороден по всем свойствам и изотропен по проницаемости.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Добывающая скважина вскрывает пласт на всю толщину.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Пласт полностью насыщен единственной фазой флюида.",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Нефть образовалась из остатков динозавров.",
+     "misconception": "misc.dinosaurs"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ]
+  },
+  {
+   "id": "T004",
+   "type": "calc",
+   "step_id": "dake.sp_mass_conservation_darcy",
+   "claim_ids": [
+    "dake.sp_mass_conservation_darcy#c6"
+   ],
+   "prompt": "Чему равен объем элемента с толщиной dr в радиальной системе координат согласно выводу баланса массы?",
+   "explanation": "Объем элемента с толщиной dr в радиальной системе координат равен 2πrhφdr.",
+   "kind": "data",
+   "answer": 6.28318,
+   "tolerance": 0.01,
+   "unit": "rhφdr",
+   "review": "ответ расчёта не встречается в тексте шага — проверить вручную"
+  },
+  {
+   "id": "T005",
+   "type": "single",
+   "step_id": "dake.sp_compressibility_and_nonlinearity",
+   "claim_ids": [
+    "dake.sp_compressibility_and_nonlinearity#c5"
+   ],
+   "prompt": "Чем обусловлена нелинейность дифференциального уравнения радиального течения 5.1?",
+   "explanation": "Уравнение 5.1 является нелинейным из-за неявной зависимости плотности, сжимаемости и вязкости от давления в коэффициентах.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Неявной зависимостью плотности, сжимаемости и вязкости от давления.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Тем, что модель пласта точно знает все свойства под землей.",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "c",
+     "text": "Тем, что пористость и проницаемость всегда равны.",
+     "misconception": "misc.porosity_eq_perm"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T006",
+   "type": "single",
+   "step_id": "dake.sp_transient_condition",
+   "claim_ids": [
+    "dake.sp_transient_condition#c4"
+   ],
+   "prompt": "Почему в течение переходного режима (transient condition) пласт математически ведет себя как бесконечный?",
+   "explanation": "При переходном режиме предполагается, что влияние внешнего контура еще не сказывается на распределении давления, поэтому пласт кажется бесконечным по простиранию.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Потому что влияние внешнего контура еще не сказывается на распределении давления.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Потому что нефть лежит бесконечным подземным озером.",
+     "misconception": "misc.oil_lake"
+    },
+    {
+     "id": "c",
+     "text": "Потому что обсаженная скважина сама пропускает флюид без перфорации.",
+     "misconception": "misc.casing_flows"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T007",
+   "type": "order",
+   "step_id": "dake.sp_transient_condition",
+   "claim_ids": [
+    "dake.sp_transient_condition#c1"
+   ],
+   "prompt": "Укажите порядок упоминания трёх основных режимов для решения уравнения при постоянном дебите в тексте главы:",
+   "explanation": "Три основных режима для решения при постоянном дебите называются переходным (transient), квазистационарным (semi steady state) и стационарным (steady state).",
+   "kind": "recall",
+   "options": [
+    {
+     "id": "a",
+     "text": "Стационарный режим (steady state)",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Переходный режим (transient)",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Квазистационарный режим (semi steady state)",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "c",
+    "a"
+   ]
+  },
+  {
+   "id": "T008",
+   "type": "single",
+   "step_id": "dake.sp_semi_steady_state",
+   "claim_ids": [
+    "dake.sp_semi_steady_state#c4"
+   ],
+   "prompt": "Как ведет себя производная давления по времени во всех точках пласта при квазиустановившемся режиме работы скважины с постоянным дебитом?",
+   "explanation": "При работе скважины с постоянным дебитом в режиме квазиустановившегося течения давление снижается так, что производная давления по времени постоянна для всех точек r и t.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Постоянна для всех точек r и t",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Равна нулю для всех радиусов",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Увеличивается пропорционально радиусу дренирования",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Зависит исключительно от сжимаемости газа",
+     "misconception": null
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T009",
+   "type": "gap",
+   "step_id": "dake.sp_semi_steady_state",
+   "claim_ids": [
+    "dake.sp_semi_steady_state#c7"
+   ],
+   "prompt": "Скорость падения давления по времени выражается через дебит, сжимаемость и объем как dp/dt = {{1}} / (cV)",
+   "explanation": "Формула материального баланса определяет скорость падения давления как dp/dt = -q / (cV).",
+   "kind": "recall",
+   "answer": [
+    "-q"
+   ]
+  },
+  {
+   "id": "T010",
+   "type": "single",
+   "step_id": "dake.sp_steady_state_and_field_limits",
+   "claim_ids": [
+    "dake.sp_steady_state_and_field_limits#c3",
+    "dake.sp_steady_state_and_field_limits#c4"
+   ],
+   "prompt": "Какое условие на внешнем радиусе и производную давления по времени характерно для установившегося режима?",
+   "explanation": "При установившемся режиме давление на внешнем радиусе равно постоянной величине, а производная давления по времени равна нулю для всех радиусов.",
+   "kind": "recall",
+   "options": [
+    {
+     "id": "a",
+     "text": "Давление на внешнем радиусе постоянно, а производная давления по времени равна нулю для всех радиусов",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Производная давления по радиусу равна нулю при r = re",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Объемный отбор жидкости полностью преобладает над притоком через внешнюю границу",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Сжимаемость жидкости принимается непостоянной и равной обратному давлению",
+     "misconception": null
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T011",
+   "type": "multiple",
+   "step_id": "dake.linearization_of_radial_flow",
+   "claim_ids": [
+    "dake.linearization_of_radial_flow#c6",
+    "dake.linearization_of_radial_flow#c7",
+    "dake.linearization_of_radial_flow#c8"
+   ],
+   "prompt": "Какие допущения применяются при линеаризации базового уравнения радиального течения несжимаемой или малосжимаемой нефти?",
+   "explanation": "Линеаризация достигается за счет допущений о постоянстве вязкости и малости градиента давления.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Вязкость му практически не зависит от давления и считается константой",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Градиент давления мал, поэтому членами производной в квадрате можно пренебречь",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Сжимаемость газа принимается постоянной и равной единице",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Внешний контур имеет нулевой приток через сплошную стенку",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "id": "T012",
+   "type": "single",
+   "step_id": "dake.compressibility_and_diffusivity",
+   "claim_ids": [
+    "dake.compressibility_and_diffusivity#c1",
+    "dake.compressibility_and_diffusivity#c2"
+   ],
+   "prompt": "Какое условие должно выполняться для правомерности простой линеаризации базового уравнения через удаление членов, согласно Дранчуку и Куону?",
+   "explanation": "Простая линеаризация применима только при выполнении условия, что произведение сжимаемости на давление много меньше единицы.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Произведение сжимаемости на давление должно быть много меньше единицы",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Вязкость нефти должна строго расти с глубиной",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Радиус контура питания должен равняться радиусу скважины",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Коэффициент пьезопроводности должен быть равен нулю",
+     "misconception": null
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T013",
+   "type": "single",
+   "step_id": "dake.flow_regimes_and_boundary_conditions",
+   "claim_ids": [
+    "dake.flow_regimes_and_boundary_conditions#c2",
+    "dake.flow_regimes_and_boundary_conditions#c3"
+   ],
+   "prompt": "Как называется режим течения, при котором реакция давления в начальный период описывается без учета влияния внешней границы пласта?",
+   "explanation": "В начальный период неустановившейся фильтрации резервуар кажется бесконечным, и внешняя граница не влияет на реакцию давления.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Переходный режим или режим бесконечного пласта",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "b",
+     "text": "Псевдоустановившееся состояние",
+     "misconception": "misc.pressure_sound_speed"
+    },
+    {
+     "id": "c",
+     "text": "Стабилизированный режим постоянного забойного давления",
+     "misconception": "misc.model_knows"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T014",
+   "type": "multiple",
+   "step_id": "dake.flow_regimes_and_boundary_conditions",
+   "claim_ids": [
+    "dake.flow_regimes_and_boundary_conditions#c14"
+   ],
+   "prompt": "Какие допущения принимаются для радиального уравнения пьезопроводности согласно положениям шага?",
+   "explanation": "Автор прямо указывает, что предполагается однородный и изотропный пласт, полностью вскрытый скважиной, с постоянной вязкостью и малой постоянной сжимаемостью.",
+   "kind": "recall",
+   "options": [
+    {
+     "id": "a",
+     "text": "Однородный и изотропный пласт",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "b",
+     "text": "Полностью проходящая скважина",
+     "misconception": "misc.casing_flows"
+    },
+    {
+     "id": "c",
+     "text": "Постоянная вязкость флюида и мала́я постоянная сжимаемость",
+     "misconception": "misc.gas_kick_constant"
+    },
+    {
+     "id": "d",
+     "text": "Двухфазная несжимаемая фильтрация",
+     "misconception": "misc.porosity_eq_perm"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ]
+  },
+  {
+   "id": "T015",
+   "type": "order",
+   "step_id": "dake.boltzmann_transformation_and_ode",
+   "claim_ids": [
+    "dake.boltzmann_transformation_and_ode#c1",
+    "dake.boltzmann_transformation_and_ode#c4",
+    "dake.boltzmann_transformation_and_ode#c5",
+    "dake.boltzmann_transformation_and_ode#c7"
+   ],
+   "prompt": "Расположите этапы получения решения уравнения радиального течения через преобразование Больцмана в правильном порядке:",
+   "explanation": "Сначала вводят переменную s и производную p', затем интегрируют полученное выражение и находят константу C2 из граничных условий.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Интегрирование уравнения для производной p' с участием слагаемого (s+1)/s",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Введение безразмерной переменной s и заменяющей производной p' = dp/ds",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Определение константы интегрирования C2 через граничное условие линейного источника",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "a",
+    "c"
+   ]
+  },
+  {
+   "id": "T016",
+   "type": "gap",
+   "step_id": "dake.boltzmann_transformation_and_ode",
+   "claim_ids": [
+    "dake.boltzmann_transformation_and_ode#c1"
+   ],
+   "prompt": "Преобразование Больцмана вводит безразмерную переменную {{1}}, объединяющую радиус, время и параметры пьезопроводности пласта, что позволяет свести дифференциальное уравнение к обычному виду.",
+   "explanation": "Преобразование Больцмана вводит безразмерную переменную s, объединяющую радиус, время и параметры пьезопроводности.",
+   "kind": "recall",
+   "answer": [
+    "s"
+   ]
+  },
+  {
+   "id": "T017",
+   "type": "single",
+   "step_id": "dake.exponential_integral_and_skin",
+   "claim_ids": [
+    "dake.exponential_integral_and_skin#c3"
+   ],
+   "prompt": "Какое условие на параметр x позволяет использовать логарифмическое приближение экспоненциального интеграла ei(x)?",
+   "explanation": "Текст явно указывает, что при x меньше 0.01 функция ei(x) аппроксимируется через логарифм x и константу Эйлера.",
+   "kind": "recall",
+   "options": [
+    {
+     "id": "a",
+     "text": "x меньше 0.01",
+     "misconception": "misc.reserves_exact"
+    },
+    {
+     "id": "b",
+     "text": "x больше 1.781",
+     "misconception": "misc.pressure_sound_speed"
+    },
+    {
+     "id": "c",
+     "text": "x равен константе Эйлера",
+     "misconception": "misc.model_knows"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T018",
+   "type": "calc",
+   "step_id": "dake.exponential_integral_and_skin",
+   "claim_ids": [
+    "dake.exponential_integral_and_skin#c3",
+    "dake.exponential_integral_and_skin#c4"
+   ],
+   "prompt": "Чему равна константа Эйлера, используемая при логарифмическом приближении экспоненциального интеграла?",
+   "explanation": "Автор определяет константу Эйлера как 0.5772 в формулах аппроксимации.",
+   "kind": "data",
+   "answer": 0.5772,
+   "tolerance": 0.0,
+   "unit": "долей"
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "chapter": "test_dake_ch5",
+ "routes": [
+  {
+   "node_id": "dake.sp_radial_flow_eq",
+   "format": "интерактив",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=1, cause_effect=1 (сумма 4)."
+  },
+  {
+   "node_id": "dake.sp_mass_conservation_darcy",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T3 пласт с флюидами и контактами",
+   "why": "тип трудности М: ведущий формат — шортс; таблицы и формулы — в интерактив, не в ролик (ТЗ). Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "dake.sp_compressibility_and_nonlinearity",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 2,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=2, invisible=2, scale=0, counterintuitive=0, cause_effect=1 (сумма 5)."
+  },
+  {
+   "node_id": "dake.sp_transient_condition",
+   "format": "шортс",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T3 пласт с флюидами и контактами",
+   "why": "тип трудности М: ведущий формат — шортс. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=0, cause_effect=1 (сумма 4)."
+  },
+  {
+   "node_id": "dake.sp_semi_steady_state",
+   "format": "интерактив",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 2,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=2, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 4)."
+  },
+  {
+   "node_id": "dake.sp_steady_state_and_field_limits",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=0, cause_effect=1 (сумма 4)."
+  },
+  {
+   "node_id": "dake.linearization_of_radial_flow",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=1 (сумма 3)."
+  },
+  {
+   "node_id": "dake.compressibility_and_diffusivity",
+   "format": "интерактив",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "dake.flow_regimes_and_boundary_conditions",
+   "format": "шортс",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 2,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T3 пласт с флюидами и контактами",
+   "why": "тип трудности М: ведущий формат — шортс. Критерии видеоёмкости: time=2, invisible=2, scale=0, counterintuitive=1, cause_effect=1 (сумма 6)."
+  },
+  {
+   "node_id": "dake.boltzmann_transformation_and_ode",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=0, cause_effect=1 (сумма 4)."
+  },
+  {
+   "node_id": "dake.exponential_integral_and_skin",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (2/10) — видео не оправдано; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 2)."
+  }
+ ]
+}

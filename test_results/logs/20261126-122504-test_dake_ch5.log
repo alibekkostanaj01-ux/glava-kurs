@@ -1,0 +1,23 @@
+$ g2c build test_dake_ch5 --no-video --no-llm-glossary
+### ЭТАП 1/7: Разбор главы и сканы
+{
+    'chapter': 'test_dake_ch5',
+    'pages': 8,
+    'units': 214,
+    'kinds': {'paragraph': 138, 'heading': 10, 'formula': 60, 'figure': 6},
+    'figures_with_model_description': 2,
+    'figures_without_description': 4,
+    'ocr_suspect': ['p075.03', 'p079.31', 'p089.13'],
+    'errata': 'нет',
+    'prereq_units': 0
+}
+Готово: 8 сканов в C:\Users\kosta\Documents\glava-kurs\work\test_dake_ch5\scans
+### ЭТАП 2/7: Учебный слой
+[12:25:10] Проход 1 — утверждения: 214 единиц, 6 порций
+!!! пропущено: Учебный слой: модель недоступна — Дневная квота модели gemini-3.8-flash исчерпана (бесплатный тариф). Нужен платный тариф или другая модель 
+(config.yaml → llm.roles). Готовые ответы сохранены в 
+### ИТОГ: выполнено 1 из 7
+### ПРОПУЩЕНО: Учебный слой: модель недоступна — Дневная квота модели gemini-3.8-flash исчерпана (бесплатный тариф). Нужен платный тариф или другая модель 
+(config.yaml → llm.roles). Готовые ответы сохранены в 
+
+### EXIT 1

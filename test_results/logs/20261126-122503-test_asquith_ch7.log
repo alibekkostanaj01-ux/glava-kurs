@@ -1,0 +1,17 @@
+$ g2c build test_asquith_ch7 --no-video --no-llm-glossary
+### ЭТАП 1/7: Разбор главы и сканы
+{
+    'chapter': 'test_asquith_ch7',
+    'pages': 18,
+    'units': 396,
+    'kinds': {'paragraph': 294, 'heading': 32, 'figure': 16, 'formula': 45, 'table': 9},
+    'figures_with_model_description': 7,
+    'figures_without_description': 9,
+    'ocr_suspect': [],
+    'errata': 'нет',
+    'prereq_units': 0
+}
+Внимание: в PDF 260 стр., в md последняя метка — 256. Сверьте нумерацию.
+Готово: 18 сканов в C:\Users\kosta\Documents\glava-kurs\work\test_asquith_ch7\scans
+### ЭТАП 2/7: Учебный слой
+[12:25:27] Проход 1 — утверждения: 396 единиц, 15 порций

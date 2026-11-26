@@ -1,0 +1,271 @@
+{
+ "video_id": "test_slatt_9_4.river_dominated_deltas.long",
+ "chapter": "test_slatt_9_4",
+ "node_id": "slatt.river_dominated_deltas",
+ "node_title": "Речные дельты и осадочные фации",
+ "format": "long",
+ "template": "T0_schema_cards",
+ "objects": [
+  "карточки с мыслями автора",
+  "стрелки причин и следствий"
+ ],
+ "params": {
+  "cards": [
+   {
+    "text": "Дельта реки Миссисипи рассматривается как эталонная дельта, доминируемая речными процессами.",
+    "page": 411
+   },
+   {
+    "text": "Из-за отсутствия сильных волн и течений на защищенном берегу осадки дельты Миссисипи не перерабатываются и не рассеиваются латерально.",
+    "page": 411
+   },
+   {
+    "text": "При наличии достаточного пространства для аккомодации между поверхностью моря и дном дельта проградирует в сторону моря вместе со своими зонами.",
+    "page": 411
+   },
+   {
+    "text": "Поверхности, соответствующие моментам геологического времени, пересекают границы между осадочными фациями (таймлайны или клиноформы).",
+    "page": 411
+   }
+  ]
+ },
+ "invariants": [
+  "pc.label_matches",
+  "pc.causality"
+ ],
+ "assumptions": [
+  "схема без масштаба, показывает только логику узла",
+  "Высокое сопротивление на каротаже не всегда означает нефтенасыщенный песчаный канал, это может быть плотный карбонат или уголь."
+ ],
+ "exaggerations": [
+  {
+   "what": "схема без масштаба",
+   "factor": null,
+   "text": "схема: размеры условны"
+  }
+ ],
+ "shots": [
+  {
+   "id": "s_hook",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "intro"
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "id": "s_cards",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "cards"
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "id": "s_predict",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "mask"
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "id": "s_reveal",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "reveal"
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "id": "s_scale",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "scale",
+    "true_scale": true
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "id": "s_final",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "final"
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "role": "hook",
+   "text": "Куда деваются пески древних рек?",
+   "on_screen": "Куда деваются речные пески?",
+   "claim_id": null,
+   "is_analogy": false,
+   "shot": "s_hook",
+   "t_start": 0.3,
+   "t_end": 3.08
+  },
+  {
+   "id": "L02",
+   "role": "problem",
+   "text": "Специалисты не могут точно предсказать распространение песчаных коллекторов в межрусловых зонах дельты.",
+   "on_screen": "Прогнозирование песчаных коллекторов",
+   "claim_id": "slatt.river_dominated_deltas#c8",
+   "is_analogy": false,
+   "shot": "s_cards",
+   "t_start": 3.43,
+   "t_end": 9.43
+  },
+  {
+   "id": "L03",
+   "role": "solution",
+   "text": "Дельта Миссисипи проградирует в сторону моря, потому что пространство для аккомодации заполнено осадками.",
+   "on_screen": "Проградация дельты Миссисипи",
+   "claim_id": "slatt.river_dominated_deltas#c3",
+   "is_analogy": false,
+   "shot": "s_cards",
+   "t_start": 9.78,
+   "t_end": 15.9
+  },
+  {
+   "id": "L04",
+   "role": "term",
+   "text": "Это процесс проградации и вертикальной агградации дельты.",
+   "on_screen": "Проградация и агградация",
+   "claim_id": "slatt.river_dominated_deltas#c5",
+   "is_analogy": false,
+   "shot": "s_cards",
+   "t_start": 16.25,
+   "t_end": 20.33
+  },
+  {
+   "id": "L05",
+   "role": "data",
+   "text": "В разрезе особенности фаций выявляются по керну и каротажу с уменьшением зернистости кривой.",
+   "on_screen": "Керн и каротаж",
+   "claim_id": "slatt.river_dominated_deltas#c10",
+   "is_analogy": false,
+   "shot": "s_cards",
+   "t_start": 20.68,
+   "t_end": 26.44
+  },
+  {
+   "id": "L06",
+   "role": "predict",
+   "text": "Как думаете, что разделяет песчаные фации распределительных каналов?",
+   "on_screen": "Что разделяет каналы?",
+   "claim_id": null,
+   "is_analogy": false,
+   "shot": "s_predict",
+   "t_start": 26.79,
+   "t_end": 31.3
+  },
+  {
+   "id": "L07",
+   "role": "answer",
+   "text": "Межрусловые заливы и марши образуют глинистые барьеры между песчаными телами.",
+   "on_screen": "Глинистые барьеры",
+   "claim_id": "slatt.river_dominated_deltas#c8",
+   "is_analogy": false,
+   "shot": "s_reveal",
+   "t_start": 32.95,
+   "t_end": 38.23
+  },
+  {
+   "id": "L08",
+   "role": "honesty",
+   "text": "Схема показывает идеализированную структуру, а реальные переключения русел происходят нерегулярно.",
+   "on_screen": "Условность схемы русел",
+   "claim_id": "slatt.river_dominated_deltas#c6",
+   "is_analogy": false,
+   "shot": "s_scale",
+   "t_start": 38.58,
+   "t_end": 44.58
+  },
+  {
+   "id": "L09",
+   "role": "action",
+   "text": "Автоматизируйте поиск латерального утонения кривой каротажа в сторону от оси канала.",
+   "on_screen": "Анализ кривой каротажа",
+   "claim_id": "slatt.river_dominated_deltas#c10",
+   "is_analogy": false,
+   "shot": "s_final",
+   "t_start": 44.93,
+   "t_end": 50.14
+  },
+  {
+   "id": "L10",
+   "role": "transfer",
+   "text": "Как выделить глинистые барьеры межрусловых заливаний по данным ГИС в вашей скважине?",
+   "on_screen": "Поиск барьеров по ГИС",
+   "claim_id": null,
+   "is_analogy": false,
+   "shot": "s_final",
+   "t_start": 50.49,
+   "t_end": 55.91
+  }
+ ],
+ "prediction_question": "Как думаете, что разделяет песчаные фации распределительных каналов?",
+ "transfer_question": "Как выделить глинистые барьеры межрусловых заливаний по данным ГИС в вашей скважине?",
+ "data_it_bridge": "Данные ГИС и керна оцифровываются и загружаются в интерпретационные комплексы, где алгоритмы машинного обучения могут автоматически выделять тренды изменения зернистости.",
+ "sources": [
+  {
+   "claim_id": "slatt.river_dominated_deltas#c8",
+   "page_or_dataset": "стр. 411",
+   "quote": "Interdistributary bays, marshes, and lagoons separate sandy facies and provide shale barriers in subsurface reservoirs, and sometimes, they provide hydrocarbon source rocks"
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c3",
+   "page_or_dataset": "стр. 411",
+   "quote": "With time and sufficient accommodation space between the sea surface and seafloor to accept sediment, such a delta will prograde seaward (Fig. 9.9), as will the delta zones"
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c5",
+   "page_or_dataset": "стр. 411",
+   "quote": "over time, progradation and vertical aggradation lead to a progressive shallowing of the water depth, to the point at which the main river(s) feeding sediment to its delta will shift toward deeper water"
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c10",
+   "page_or_dataset": "стр. 413",
+   "quote": "In the subsurface, these same features can be identified in cores and on well logs, including a lateral thinning and fining log response away from the channel axis (Fig. 9.15)."
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c8",
+   "page_or_dataset": "стр. 411",
+   "quote": "Interdistributary bays, marshes, and lagoons separate sandy facies and provide shale barriers in subsurface reservoirs, and sometimes, they provide hydrocarbon source rocks"
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c6",
+   "page_or_dataset": "стр. 411",
+   "quote": "During the past 4600 years, there have been no fewer than eight periods of channel and lobe switching on the Mississippi River Delta"
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c10",
+   "page_or_dataset": "стр. 413",
+   "quote": "In the subsurface, these same features can be identified in cores and on well logs, including a lateral thinning and fining log response away from the channel axis (Fig. 9.15)."
+  }
+ ],
+ "references": [
+  "фото-референсы организаторов: каротажный подъёмник, скважинные приборы"
+ ],
+ "school": "русская школа ГИС",
+ "voice": "ru-RU-DmitryNeural",
+ "mentor_approved": false,
+ "mentor_note": "",
+ "planned_by": "сценарий: gemini-3.5-flash-lite; шаблон: специального шаблона нет — универсальная схема (в отчёте покрытия: нужен новый)",
+ "layer_file": ""
+}

@@ -1,0 +1,19 @@
+$ g2c video test_slatt_9_4 --fmt long --node slatt.river_dominated_deltas
+Спецификация: work/test_slatt_9_4/video/test_slatt_9_4.river_dominated_deltas.long/spec.json · шаблон T0_schema_cards · сценарий: gemini-3.5-flash-lite; 
+шаблон: специального шаблона нет — универсальная схема (в отчёте покрытия: нужен новый)
+Проверка до рендера пройдена
+{
+    'ok': True,
+    'video': 'C:\\Users\\kosta\\Documents\\glava-kurs\\out\\video\\test_slatt_9_4.river_dominated_deltas.long.mp4',
+    'duration_s': 57.8,
+    'frames': 693,
+    'tempo_wpm': 118.5,
+    'loudness_lufs': -15.9,
+    'spec_errors_ignored': [],
+    'invariant_errors': [],
+    'passport': 'C:\\Users\\kosta\\Documents\\glava-kurs\\out\\video\\test_slatt_9_4.river_dominated_deltas.long.passport.json',
+    'passport_schema_errors': [],
+    'voice_ok': True
+}
+
+### EXIT 0

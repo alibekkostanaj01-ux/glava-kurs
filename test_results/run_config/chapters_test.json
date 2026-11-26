@@ -1,0 +1,43 @@
+[
+  {
+    "id": "test_asquith_ch7",
+    "prefix": "asquith",
+    "split": "test",
+    "title": "Asquith, Krygowski, Basic Well Log Analysis, ch. 7 «Log Interpretation»",
+    "book_md": "test_asquith.md",
+    "book_pdf": "Basic well log analysis for geologists Asquith, George B_ Gibson, Charles R.pdf",
+    "pages": "126-136,140-146",
+    "note": "Двойник 1; стр. по меткам md"
+  },
+  {
+    "id": "test_dake_ch5",
+    "prefix": "dake",
+    "split": "test",
+    "title": "Dake, Fundamentals of Reservoir Engineering, ch. 5 «The Basic Differential Equation for Radial Flow…» и начало §7.3",
+    "book_md": "test_dake.md",
+    "book_pdf": "Developments in Petroleeum Science,8  fundamentals of -- L_P_ Dake (Eds).pdf",
+    "pages": "75-79,87-89",
+    "note": "Двойник 2; на листе две страницы книги"
+  },
+  {
+    "id": "test_slatt_9_4",
+    "prefix": "slatt",
+    "split": "test",
+    "title": "Slatt, Stratigraphic Reservoir Characterization, конец §9.3 (клиноформы) и §9.4 «River-Dominated Delta Deposits and Reservoirs»",
+    "book_md": "test_slatt.md",
+    "book_pdf": "Slatt - Stratigraphic Reservoir Characterization for Petroleum Geologists, Geophysicists, and Engineers 2013.pdf",
+    "pages": "410-423",
+    "note": "Двойник 3; ролик 16:9 по §9.4.1, стр. 411–416"
+  },
+  {
+    "id": "test_basarygin_4_1",
+    "prefix": "basarygin",
+    "split": "test",
+    "domain": "drilling",
+    "title": "Басарыгин и др., Осложнения и аварии при бурении: §4.1.1 «Признаки проявлений» и часть §4.2.14 «Ликвидация нефтегазопроявлений»",
+    "book_md": "test_basarygin.md",
+    "book_pdf": "Басарыгин и др - Осложнения и аварии при бурении нефтяных и газовых скважин - 2000.pdf",
+    "pages": "231-239,312-318",
+    "note": "Другой домен (бурение); шортс 9:16 по §4.1.1 и §4.2.14 стр. 314–315"
+  }
+]

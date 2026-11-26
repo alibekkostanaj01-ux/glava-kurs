@@ -1,0 +1,55 @@
+$ g2c build test_basarygin_4_1 --no-video
+### ЭТАП 1/7: Разбор главы и сканы
+{
+    'chapter': 'test_basarygin_4_1',
+    'pages': 16,
+    'units': 133,
+    'kinds': {'paragraph': 120, 'heading': 3, 'figure': 3, 'formula': 7},
+    'figures_with_model_description': 0,
+    'figures_without_description': 3,
+    'ocr_suspect': [],
+    'errata': 'нет',
+    'prereq_units': 0
+}
+Готово: 16 сканов в C:\Users\kosta\Documents\glava-kurs\work\test_basarygin_4_1\scans
+### ЭТАП 2/7: Учебный слой
+[12:31:12] Проход 1 — утверждения: 133 единиц, 5 порций
+[12:31:43]   стр. 312–315: 16 утв., 0 примеров, 0 задач (31.03 с)
+[12:31:43]   стр. 237–239: 23 утв., 0 примеров, 0 задач (31.39 с)
+[12:31:46]   стр. 234–236: 28 утв., 0 примеров, 0 задач (33.85 с)
+[12:31:48]   стр. 231–233: 34 утв., 0 примеров, 0 задач (35.63 с)
+[12:31:58]   стр. 316–318: 20 утв., 0 примеров, 0 задач (15.09 с)
+[12:31:58]   проверка: 115 из 121 верны сразу, на исправление 6
+[12:32:50]   после исправления: отброшено 6
+[12:32:50] Проход 2 — план узлов из 115 утверждений, 3 порций по разделам
+[12:32:51]   : 7 утв. → 1 узлов (1.37 с)
+[12:32:55]   4.1.2. ПРИЧИНЫ ПОСТУПЛЕНИЯ ПЛАСТОВЫХ ФЛЮИДОВ В СКВ: 33 утв. → 2 узлов (4.54 с)
+[12:32:57]   4.1.1. ПРИЗНАКИ ПРОЯВЛЕНИЙ: 75 утв. → 7 узлов (7.25 с)
+[12:32:57]   узлов: 10
+[12:32:57] Проход 4 — поля узлов: 10 узлов, 3 вызовов
+[12:33:03]   well_closing_methods, killing_methods_and_circulations (5.5 с)
+[12:33:32]   sp_tripping_operations_control, sp_gas_saturation_analysis, sp_drilling_speed_anomalies, sp_pump_pressure_redistribution (35.01 с)
+[12:33:55]   drilling_safety_measures, sp_fluid_signs_intro, sp_mud_volume_control, sp_flow_rate_monitoring (57.58 с)
+[12:33:55] Проход 5 — покрытие: 41 единиц без узла
+[12:34:00] Готово: {'chapter': 'test_basarygin_4_1', 'nodes': 10, 'prereq_nodes': 0, 'claims': 115, 'dropped_claims': 6, 'worked_examples': 0, 'book_tasks': 0, 'coverage': '133/133', 'final_issues': 0, 'minutes': 2.8}
+### ЭТАП 3/7: Маршрутизация форматов
+{'nodes': 10, 'formats': {'практикум на данных': 4, 'карточки': 1, 'интерактив': 1, 'шортс': 4}, 'schema_errors': 0}
+### ЭТАП 4/7: Глоссарий
+{'added': 21, 'total': 34, 'notation_applied': 17, 'notation_new_entries': 13, 'english_from_books': 0, 'with_book_definition': 0, 'without_definition': 21}
+[12:34:05] Глоссарий: 21 новых терминов, 0 проверенных статей сохраняются
+[12:35:01]   статей: 21 (55.73 с)
+{'terms': 34, 'new': 21, 'need_check': 0}
+### ЭТАП 5/7: Задания
+[12:35:01] Задания: 10 шагов, 3 запросов
+[12:35:05]   5 заданий для 4 шагов (4.61 с)
+[12:35:06]   5 заданий для 4 шагов (5.43 с)
+[12:35:12]   6 заданий для 2 шагов (11.69 с)
+[12:35:12] Готово: {'tasks': 15, 'types': ['calc', 'gap', 'multiple', 'order', 'single'], 'dropped': 1, 'need_review': 1, 'meets_tz': True}
+### ЭТАП 6/7: Ролик
+### ЭТАП 7/7: Сайт курса
+Курс: C:\Users\kosta\Documents\glava-kurs\out\test_basarygin_4_1\index.html (0.3 МБ)
+Формулы: 23, не перевелись 0
+### ИТОГ: выполнено 6 из 7
+### ПРОПУЩЕНО: Ролик: выключен
+
+### EXIT 0

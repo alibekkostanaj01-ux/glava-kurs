@@ -1,0 +1,406 @@
+{
+ "chapter": "test_basarygin_4_1",
+ "tasks": [
+  {
+   "id": "T001",
+   "type": "single",
+   "step_id": "basarygin.drilling_safety_measures",
+   "claim_ids": [
+    "basarygin.drilling_safety_measures#c2"
+   ],
+   "prompt": "Какая мера безопасности из перечисленных применяется на стадии проектирования для предотвращения аварий при уменьшении противодействия пластам?",
+   "explanation": "Прогнозирование пластового давления на всех стадиях проектирования и строительства скважин является одной из мер безопасности.",
+   "kind": "recall",
+   "options": [
+    {
+     "id": "a",
+     "text": "Прогнозирование пластового (порового) давления на всех стадиях проектирования и строительства",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Мгновенное утяжеление бурового раствора без закрытия скважины",
+     "misconception": "misc.heavier_mud_instantly"
+    },
+    {
+     "id": "c",
+     "text": "Ожидание и подтверждение притока перед принятием любых мер",
+     "misconception": "misc.wait_to_confirm"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T002",
+   "type": "multiple",
+   "step_id": "basarygin.sp_fluid_signs_intro",
+   "claim_ids": [
+    "basarygin.sp_fluid_signs_intro#c6"
+   ],
+   "prompt": "Какие показатели свойств бурового раствора изменяются при поступлении пластового флюида?",
+   "explanation": "При поступлении флюида изменяются свойства раствора: плотность, водоотдача, вязкость, напряжение сдвига, удельное сопротивление, хлориды.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Плотность и водоотдача",
+     "misconception": "misc.kick_only_gas"
+    },
+    {
+     "id": "b",
+     "text": "Вязкость и напряжение сдвига",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Удельное сопротивление и хлориды",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Цвет бурильной колонны независимо от состава раствора",
+     "misconception": "misc.wait_to_confirm"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ]
+  },
+  {
+   "id": "T003",
+   "type": "single",
+   "step_id": "basarygin.sp_mud_volume_control",
+   "claim_ids": [
+    "basarygin.sp_mud_volume_control#c9"
+   ],
+   "prompt": "Как изменится реакция уровнемера при переключении емкостей с площади 40 кв.м на 20 кв.м?",
+   "explanation": "Переключение емкостей площадью 40 кв.м на 20 кв.м удваивает реакцию уровнемера.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Удваивается реакция уровнемера",
+     "misconception": "misc.pit_gain_normal"
+    },
+    {
+     "id": "b",
+     "text": "Реакция уменьшается в два раза",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Реакция не изменяется",
+     "misconception": null
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T004",
+   "type": "calc",
+   "step_id": "basarygin.sp_mud_volume_control",
+   "claim_ids": [
+    "basarygin.sp_mud_volume_control#c5"
+   ],
+   "prompt": "Чему равен минимальный объем поступившего в скважину флюида (в м3), если погрешность уровнемера epsilon равна 0.05 м, а площадь поверхности жидкости S в емкости равна 20 м2?",
+   "explanation": "Минимальный объем флюида рассчитывается по формуле Delta V min = epsilon * S, то есть 0.05 * 20 = 1.0 м3.",
+   "kind": "data",
+   "answer": 1.0,
+   "tolerance": 0.01,
+   "unit": "м3",
+   "review": "ответ расчёта не встречается в тексте шага — проверить вручную"
+  },
+  {
+   "id": "T005",
+   "type": "single",
+   "step_id": "basarygin.sp_flow_rate_monitoring",
+   "claim_ids": [
+    "basarygin.sp_flow_rate_monitoring#c3"
+   ],
+   "prompt": "При каком минимальном превышении расхода на выходе индикатор потока позволяет обнаружить начавшееся проявление?",
+   "explanation": "Индикатор потока позволяет обнаружить начавшееся проявление при превышении расхода на выходе на 10 % и более.",
+   "kind": "recall",
+   "options": [
+    {
+     "id": "a",
+     "text": "10 % и более",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "1 % и более",
+     "misconception": "misc.pit_gain_normal"
+    },
+    {
+     "id": "c",
+     "text": "50 % и более",
+     "misconception": null
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T006",
+   "type": "single",
+   "step_id": "basarygin.sp_tripping_operations_control",
+   "claim_ids": [
+    "basarygin.sp_tripping_operations_control#c1"
+   ],
+   "prompt": "Как определяется проявление при подъеме бурильной колонны по объему доливаемой жидкости?",
+   "explanation": "Признаком проявлений является уменьшение против расчетного объема доливаемого в скважину бурового раствора при подъеме бурильной колонны.",
+   "kind": "recall",
+   "options": [
+    {
+     "id": "a",
+     "text": "По уменьшению объема доливаемого раствора по сравнению с расчетным.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "По увеличению объема доливаемого раствора сверх расчетного объема.",
+     "misconception": "misc.pit_gain_normal"
+    },
+    {
+     "id": "c",
+     "text": "По полному прекращению расхода доливаемой жидкости.",
+     "misconception": "misc.tripping_safe"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T007",
+   "type": "gap",
+   "step_id": "basarygin.sp_tripping_operations_control",
+   "claim_ids": [
+    "basarygin.sp_tripping_operations_control#c7"
+   ],
+   "prompt": "Не допускается уменьшение объема доливаемой жидкости по сравнению с контрольным более чем на {{1}}.",
+   "explanation": "Не допускается уменьшение объема доливаемой жидкости по сравнению с контрольным более чем на 1 м³.",
+   "kind": "recall",
+   "answer": [
+    "1 м³"
+   ]
+  },
+  {
+   "id": "T008",
+   "type": "single",
+   "step_id": "basarygin.sp_gas_saturation_analysis",
+   "claim_ids": [
+    "basarygin.sp_gas_saturation_analysis#c3"
+   ],
+   "prompt": "Что необходимо предпринять при росте содержания газа в буровом растворе выше фоновых значений?",
+   "explanation": "При росте содержания газа в растворе выше фона принимают меры к дегазации и выявлению причин поступления.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Принять меры к дегазации и выявлению причин поступления газа.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Немедленно полностью остановить буровые насосы и открыть задвижки без контроля.",
+     "misconception": "misc.open_choke_to_relieve"
+    },
+    {
+     "id": "c",
+     "text": "Продолжать бурение без изменений, так как газ безопасен до выброса.",
+     "misconception": "misc.pit_gain_normal"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T009",
+   "type": "single",
+   "step_id": "basarygin.sp_drilling_speed_anomalies",
+   "claim_ids": [
+    "basarygin.sp_drilling_speed_anomalies#c3",
+    "basarygin.sp_drilling_speed_anomalies#c5"
+   ],
+   "prompt": "Что означает резкое увеличение механической скорости бурения (скачок проходки) в переходной зоне?",
+   "explanation": "Скачок проходки возникает при превышении порового давления над противодавлением со стороны бурового раствора.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Быстрое возрастание аномальности давления на забое и возможное превышение порового давления над противодавлением.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Обязательное падение давления в бурильных трубах из-за тяжелого раствора.",
+     "misconception": "misc.pressure_rises_pump"
+    },
+    {
+     "id": "c",
+     "text": "Уменьшение пористости и прекращение притока пластовых флюидов.",
+     "misconception": "misc.kick_only_gas"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T010",
+   "type": "single",
+   "step_id": "basarygin.sp_pump_pressure_redistribution",
+   "claim_ids": [
+    "basarygin.sp_pump_pressure_redistribution#c2"
+   ],
+   "prompt": "Как приток легкого пластового флюида отражается на давлении буровых насосов в типичных условиях?",
+   "explanation": "Перераспределение давлений в системе сообщающихся сосудов при поступлении легкого флюида происходит за счет снижения давления на буровых насосах.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Вызывает снижение давления на буровых насосах.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Приводит к резкому росту давления в нагнетательной линии насосов.",
+     "misconception": "misc.pressure_rises_pump"
+    },
+    {
+     "id": "c",
+     "text": "Совершенно не изменяет показатели давлений в системе.",
+     "misconception": "misc.wait_to_confirm"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T011",
+   "type": "single",
+   "step_id": "basarygin.well_closing_methods",
+   "claim_ids": [
+    "basarygin.well_closing_methods#c7"
+   ],
+   "prompt": "Как прекращается поступление пластовой жидкости сразу после перекрытия скважины?",
+   "explanation": "После перекрытия скважины поступление пластовой жидкости прекращается не мгновенно, а постепенно за счет сжимаемости жидкости.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Мгновенно во всем стволе скважины",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Постепенно за счет сжимаемости жидкости",
+     "misconception": "misc.bop_stops_everything"
+    },
+    {
+     "id": "c",
+     "text": "Только после полного удаления газовой пачки на устье",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Сразу после остановки буровых насосов",
+     "misconception": null
+    }
+   ],
+   "answer": "b"
+  },
+  {
+   "id": "T012",
+   "type": "gap",
+   "step_id": "basarygin.well_closing_methods",
+   "claim_ids": [
+    "basarygin.well_closing_methods#c8"
+   ],
+   "prompt": "Приток жидкости прекращается, когда сумма устьевого давления нагнетания и гидростатического давления становится равной {{1}}.",
+   "explanation": "Приток жидкости прекращается, когда сумма устьевого давления нагнетания и гидростатического давления становится равной пластовому.",
+   "kind": "understanding",
+   "answer": [
+    "пластовому"
+   ]
+  },
+  {
+   "id": "T013",
+   "type": "single",
+   "step_id": "basarygin.killing_methods_and_circulations",
+   "claim_ids": [
+    "basarygin.killing_methods_and_circulations#c9"
+   ],
+   "prompt": "Что означает равное давление в бурильных трубах и кольцевом пространстве при закрытой скважине в методе бурильщика?",
+   "explanation": "Равное давление в бурильных трубах и кольцевом пространстве при закрытой скважине означает ликвидацию проявления.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ликвидацию проявления",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Необходимость срочно утяжелить буровой раствор",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Забойное давление упало ниже пластового",
+     "misconception": "misc.gas_cut_kills_bhp"
+    },
+    {
+     "id": "d",
+     "text": "Отказ манометров на устьевой арматуре",
+     "misconception": null
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "T014",
+   "type": "order",
+   "step_id": "basarygin.killing_methods_and_circulations",
+   "claim_ids": [
+    "basarygin.killing_methods_and_circulations#c1",
+    "basarygin.killing_methods_and_circulations#c2"
+   ],
+   "prompt": "Расположите в правильной последовательности действия при возникновении проявления во время спуско-подъемных операций (СПО):",
+   "explanation": "При возникновении проявления во время СПО подъем или спуск прекращают, замок трубы размещают над столом ротора, колонну подвешивают на клиньях, устанавливают безопасный клапан и закрывают превентор.",
+   "kind": "understanding",
+   "options": [
+    {
+     "id": "a",
+     "text": "Прекратить подъем или спуск инструмента",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Разместить замок трубы над столом ротора и подвесить колонну на клиньях",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Установить на колонну открытый безопасный клапан и закрыть его вместе с превентором",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ]
+  },
+  {
+   "id": "T015",
+   "type": "calc",
+   "step_id": "basarygin.killing_methods_and_circulations",
+   "claim_ids": [
+    "basarygin.killing_methods_and_circulations#c14"
+   ],
+   "prompt": "Каково числовое значение коэффициента безопасности в зависимости от состояния скважины и давлений?",
+   "explanation": "Числовое значение коэффициента безопасности принимают равным 1 МПа в зависимости от состояния скважины и давлений.",
+   "kind": "recall",
+   "answer": 1.0,
+   "tolerance": 0.0,
+   "unit": "МПа"
+  }
+ ]
+}

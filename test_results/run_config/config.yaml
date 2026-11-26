@@ -1,0 +1,27 @@
+# Роли моделей. Код обращается к роли, а не к конкретной модели:
+# замена модели = правка этого файла или переменной LLM_MODEL в .env.
+llm:
+  provider: gemini
+  temperature: 0.2
+  timeout_s: 300        # таймаут одного запроса; повисший запрос повторяется
+  max_retries: 6       # Gemini часто отвечает 503 «high demand» — повторяем с растущей паузой
+  roles:
+    # Провайдер выбирается по названию: с «/» (vendor/model) — OpenRouter (OPENROUTER_API_KEY),
+    # без — Gemini (GEMINI_API_KEY). Роли нужны, чтобы менять модель этапа без правки кода.
+    # Основная модель команды — gemini-3.8-flash; пока у Gemini исчерпана бесплатная квота,
+    # работаем на бесплатной модели OpenRouter. Вернуть Gemini — заменить строки ниже на gemini-3.8-flash.
+    structurer: gemini-3.5-flash-lite   # учебный слой, сценарии
+    writer: gemini-3.5-flash-lite       # тексты шагов
+    fast: gemini-3.5-flash-lite         # оценки, задания, массовые проверки
+    judge: gemini-3.5-flash-lite        # модуль проверки
+    vision: gemini-3.5-flash-lite       # описание рисунков и кадров по изображению
+    image: gemini-3.1-flash-image  # иллюстрации классов C/D (Nano Banana 2) — только контекст, с меткой «иллюстрация ИИ»
+
+# Цены в долларах за 1 млн токенов. ЗАПОЛНИТЬ по прайсу Google на дату хакатона:
+# без них metrics.csv покажет токены, но деньги будут пустыми.
+prices_usd_per_1m:
+  gemini-3.8-flash: {input: null, output: null}
+  nvidia/nemotron-3.5-super-vl:free: {input: 0, output: 0}
+
+scans:
+  dpi: 150

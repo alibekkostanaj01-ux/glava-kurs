@@ -1,0 +1,85 @@
+$ g2c video test_basarygin_4_1 --fmt short --node basarygin.sp_mud_volume_control
+┌───────────────────────────────────────────────────────────── Traceback (most recent call last) ─────────────────────────────────────────────────────────────┐
+│ C:\Users\kosta\Documents\glava-kurs\g2c\cli.py:292 in video                                                                                                 │
+│                                                                                                                                                             │
+│   289 @app.command()                                                                                                                                        │
+│   290 def video(chapter: str, fmt: str = typer.Option("short"), node: str = typer.Option(None), no_llm: bool = typer.Option(False, "--no-llm")):            │
+│   291 │   """Ролик целиком: выбор узла → спецификация и сценарий → проверка → рендер → паспорт."""                                                          │
+│ > 292 │   video_plan(chapter, node, fmt, no_llm, None, "")                                                                                                  │
+│   293 │   from .video.planner import best_video_node                                                                                                        │
+│   294 │                                                                                                                                                     │
+│   295 │   n = node or best_video_node(chapter, fmt)                                                                                                         │
+│                                                                                                                                                             │
+│ C:\Users\kosta\Documents\glava-kurs\g2c\cli.py:272 in video_plan                                                                                            │
+│                                                                                                                                                             │
+│   269 │   if not node:                                                                                                                                      │
+│   270 │   │   con.print("[red]Нет узла для ролика: сначала g2c route <глава> или укажите --node[/]")                                                        │
+│   271 │   │   raise typer.Exit(1)                                                                                                                           │
+│ > 272 │   spec, errs = plan_video(chapter, node, fmt, use_llm=not no_llm, template_id=template, layer_file=layer_file)                                      │
+│   273 │   con.print(f"Спецификация: work/{chapter}/video/{spec.video_id}/spec.json · шаблон {spec.template} · {spec.planned_by}")                           │
+│   274 │   con.print("[green]Проверка до рендера пройдена[/]" if not errs else f"[yellow]Замечания ({len(errs)}):[/] " + "; ".join(errs))                    │
+│   275                                                                                                                                                       │
+│                                                                                                                                                             │
+│ C:\Users\kosta\Documents\glava-kurs\g2c\video\planner.py:107 in plan_video                                                                                  │
+│                                                                                                                                                             │
+│   104 │   │   │   │   log(f"  модель недоступна ({str(e)[:120]}) — запасной сценарий")                                                                      │
+│   105 │   │   │   │   break                                                                                                                                 │
+│   106 │   │   │   spec = _assemble(draft, node, tpl, params, shots, ex, video_id, chapter, fmt, planned_by)                                                 │
+│ > 107 │   │   │   errors = check_spec(spec, node, ch.domain)                                                                                                │
+│   108 │   │   │   if not errors:                                                                                                                            │
+│   109 │   │   │   │   break                                                                                                                                 │
+│   110 │   │   │   log(f"  сценарий не прошёл проверку ({len(errors)}), попытка исправления")                                                                │
+│                                                                                                                                                             │
+│ C:\Users\kosta\Documents\glava-kurs\g2c\video\spec.py:144 in check_spec                                                                                     │
+│                                                                                                                                                             │
+│   141 │   │   │   errs.append(f"{l.id}: числа {', '.join(bad)} нет в утверждениях узла")                                                                    │
+│   142 │   │   if l.shot and l.shot not in shot_ids:                                                                                                         │
+│   143 │   │   │   errs.append(f"{l.id}: кадр {l.shot} не описан")                                                                                           │
+│ > 144 │   │   for misc, rx in forbidden_patterns(domain):                                                                                                   │
+│   145 │   │   │   if re.search(rx, l.text, re.I) or re.search(rx, l.on_screen, re.I):                                                                       │
+│   146 │   │   │   │   errs.append(f"{l.id}: формулировка закрепляет заблуждение {misc}")                                                                    │
+│   147 │   if not spec.exaggerations:                                                                                                                        │
+│                                                                                                                                                             │
+│ C:\Users\kosta\Documents\glava-kurs\g2c\video\spec.py:100 in forbidden_patterns                                                                             │
+│                                                                                                                                                             │
+│    97 │   p = DOMAIN / domain / "forbidden_patterns.json"                                                                                                   │
+│    98 │   if not p.exists():                                                                                                                                │
+│    99 │   │   return []                                                                                                                                     │
+│ > 100 │   return [(d["misc"], d["regex"]) for d in json.loads(p.read_text(encoding="utf-8"))]                                                               │
+│   101                                                                                                                                                       │
+│   102                                                                                                                                                       │
+│   103 def check_spec(spec: SceneSpec, node: dict, domain: str = "geology") -> list[str]:                                                                    │
+│                                                                                                                                                             │
+│ C:\Users\kosta\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\json\__init__.py:346 in loads                                                 │
+│                                                                                                                                                             │
+│   343 │   if (cls is None and object_hook is None and                                                                                                       │
+│   344 │   │   │   parse_int is None and parse_float is None and                                                                                             │
+│   345 │   │   │   parse_constant is None and object_pairs_hook is None and not kw):                                                                         │
+│ > 346 │   │   return _default_decoder.decode(s)                                                                                                             │
+│   347 │   if cls is None:                                                                                                                                   │
+│   348 │   │   cls = JSONDecoder                                                                                                                             │
+│   349 │   if object_hook is not None:                                                                                                                       │
+│                                                                                                                                                             │
+│ C:\Users\kosta\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\json\decoder.py:338 in decode                                                 │
+│                                                                                                                                                             │
+│   335 │   │   containing a JSON document).                                                                                                                  │
+│   336 │   │                                                                                                                                                 │
+│   337 │   │   """                                                                                                                                           │
+│ > 338 │   │   obj, end = self.raw_decode(s, idx=_w(s, 0).end())                                                                                             │
+│   339 │   │   end = _w(s, end).end()                                                                                                                        │
+│   340 │   │   if end != len(s):                                                                                                                             │
+│   341 │   │   │   raise JSONDecodeError("Extra data", s, end)                                                                                               │
+│                                                                                                                                                             │
+│ C:\Users\kosta\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\json\decoder.py:354 in raw_decode                                             │
+│                                                                                                                                                             │
+│   351 │   │                                                                                                                                                 │
+│   352 │   │   """                                                                                                                                           │
+│   353 │   │   try:                                                                                                                                          │
+│ > 354 │   │   │   obj, end = self.scan_once(s, idx)                                                                                                         │
+│   355 │   │   except StopIteration as err:                                                                                                                  │
+│   356 │   │   │   raise JSONDecodeError("Expecting value", s, err.value) from None                                                                          │
+│   357 │   │   return obj, end                                                                                                                               │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+JSONDecodeError: Invalid \escape: line 2 column 52 (char 53)
+
+### EXIT 1

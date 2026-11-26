@@ -1,0 +1,16 @@
+$ g2c build test_slatt_9_4 --no-video --no-llm-glossary
+### ЭТАП 1/7: Разбор главы и сканы
+{
+    'chapter': 'test_slatt_9_4',
+    'pages': 14,
+    'units': 67,
+    'kinds': {'paragraph': 44, 'figure': 17, 'heading': 6},
+    'figures_with_model_description': 17,
+    'figures_without_description': 0,
+    'ocr_suspect': ['p422.07'],
+    'errata': 'нет',
+    'prereq_units': 0
+}
+Готово: 14 сканов в C:\Users\kosta\Documents\glava-kurs\work\test_slatt_9_4\scans
+### ЭТАП 2/7: Учебный слой
+[12:25:10] Проход 1 — утверждения: 67 единиц, 8 порций

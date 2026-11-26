@@ -1,0 +1,575 @@
+{
+ "video_id": "test_slatt_9_4.river_dominated_deltas.long",
+ "node_id": "slatt.river_dominated_deltas",
+ "node_card": {
+  "title": "Речные дельты и осадочные фации",
+  "difficulty": {
+   "primary": "М",
+   "secondary": "Р"
+  },
+  "pages": [
+   411,
+   413
+  ],
+  "main": "Дельта реки Миссисипи — эталонная речная дельта, где осадки не рассеиваются волнами. Проградация и агградация вызывают мепление водоема и переключение русел."
+ },
+ "format": "разбор 16:9",
+ "template": "T0_schema_cards — Универсальная схема: мысли автора карточками",
+ "script": [
+  {
+   "t_start": 0.3,
+   "t_end": 3.08,
+   "text": "Куда деваются пески древних рек?",
+   "claim_id": null,
+   "is_analogy": false,
+   "on_screen": "Куда деваются речные пески?",
+   "role": "hook"
+  },
+  {
+   "t_start": 3.43,
+   "t_end": 9.43,
+   "text": "Специалисты не могут точно предсказать распространение песчаных коллекторов в межрусловых зонах дельты.",
+   "claim_id": "slatt.river_dominated_deltas#c8",
+   "is_analogy": false,
+   "on_screen": "Прогнозирование песчаных коллекторов",
+   "role": "problem"
+  },
+  {
+   "t_start": 9.78,
+   "t_end": 15.9,
+   "text": "Дельта Миссисипи проградирует в сторону моря, потому что пространство для аккомодации заполнено осадками.",
+   "claim_id": "slatt.river_dominated_deltas#c3",
+   "is_analogy": false,
+   "on_screen": "Проградация дельты Миссисипи",
+   "role": "solution"
+  },
+  {
+   "t_start": 16.25,
+   "t_end": 20.33,
+   "text": "Это процесс проградации и вертикальной агградации дельты.",
+   "claim_id": "slatt.river_dominated_deltas#c5",
+   "is_analogy": false,
+   "on_screen": "Проградация и агградация",
+   "role": "term"
+  },
+  {
+   "t_start": 20.68,
+   "t_end": 26.44,
+   "text": "В разрезе особенности фаций выявляются по керну и каротажу с уменьшением зернистости кривой.",
+   "claim_id": "slatt.river_dominated_deltas#c10",
+   "is_analogy": false,
+   "on_screen": "Керн и каротаж",
+   "role": "data"
+  },
+  {
+   "t_start": 26.79,
+   "t_end": 32.69,
+   "text": "Эталон речной дельты — дельта Миссисипи: здесь главную работу делает река, а не волны.",
+   "claim_id": "slatt.river_dominated_deltas#c1",
+   "is_analogy": false,
+   "on_screen": "Миссисипи — эталон речной дельты",
+   "role": "term"
+  },
+  {
+   "t_start": 33.04,
+   "t_end": 39.4,
+   "text": "Берег защищён от сильных волн и течений, поэтому осадки не перемываются и не разносятся вдоль берега.",
+   "claim_id": "slatt.river_dominated_deltas#c2",
+   "is_analogy": false,
+   "on_screen": "Волны не разносят осадки",
+   "role": "data"
+  },
+  {
+   "t_start": 39.75,
+   "t_end": 45.46,
+   "text": "Песчаные коллекторы речной дельты — это отложения распределительных каналов и устьевых баров.",
+   "claim_id": "slatt.river_dominated_deltas#c7",
+   "is_analogy": false,
+   "on_screen": "Каналы и устьевые бары — песок",
+   "role": "term"
+  },
+  {
+   "t_start": 45.81,
+   "t_end": 52.1,
+   "text": "Пока между уровнем моря и дном хватает места, дельта со всеми своими зонами наступает в сторону моря.",
+   "claim_id": "slatt.river_dominated_deltas#c3",
+   "is_analogy": false,
+   "on_screen": "Дельта наступает на море",
+   "role": "solution"
+  },
+  {
+   "t_start": 52.45,
+   "t_end": 59.07,
+   "text": "Наступление и наращивание вверх мелят водоём, и река выносит осадок всё дальше, в более глубокую воду.",
+   "claim_id": "slatt.river_dominated_deltas#c5",
+   "is_analogy": false,
+   "on_screen": "Водоём мелеет — осадок уходит дальше",
+   "role": "solution"
+  },
+  {
+   "t_start": 59.42,
+   "t_end": 65.37,
+   "text": "Поэтому вверх по разрезу осадки становятся грубее: снизу тонкие, сверху крупнозернистые.",
+   "claim_id": "slatt.river_dominated_deltas#c9",
+   "is_analogy": false,
+   "on_screen": "Вверх по разрезу — грубее",
+   "role": "data"
+  },
+  {
+   "t_start": 65.72,
+   "t_end": 71.82,
+   "text": "Линии одного геологического времени, клиноформы, при этом пересекают границы между фациями.",
+   "claim_id": "slatt.river_dominated_deltas#c4",
+   "is_analogy": false,
+   "on_screen": "Клиноформы режут фации",
+   "role": "data"
+  },
+  {
+   "t_start": 72.17,
+   "t_end": 78.12,
+   "text": "За последние 4600 лет русла и лопасти Миссисипи переключались не менее восьми раз.",
+   "claim_id": "slatt.river_dominated_deltas#c6",
+   "is_analogy": false,
+   "on_screen": "8 переключений за 4600 лет",
+   "role": "data"
+  },
+  {
+   "t_start": 78.47,
+   "t_end": 82.98,
+   "text": "Как думаете, что разделяет песчаные фации распределительных каналов?",
+   "claim_id": null,
+   "is_analogy": false,
+   "on_screen": "Что разделяет каналы?",
+   "role": "predict"
+  },
+  {
+   "t_start": 84.63,
+   "t_end": 89.91,
+   "text": "Межрусловые заливы и марши образуют глинистые барьеры между песчаными телами.",
+   "claim_id": "slatt.river_dominated_deltas#c8",
+   "is_analogy": false,
+   "on_screen": "Глинистые барьеры",
+   "role": "answer"
+  },
+  {
+   "t_start": 90.26,
+   "t_end": 96.26,
+   "text": "Схема показывает идеализированную структуру, а реальные переключения русел происходят нерегулярно.",
+   "claim_id": "slatt.river_dominated_deltas#c6",
+   "is_analogy": false,
+   "on_screen": "Условность схемы русел",
+   "role": "honesty"
+  },
+  {
+   "t_start": 96.61,
+   "t_end": 101.82,
+   "text": "Автоматизируйте поиск латерального утонения кривой каротажа в сторону от оси канала.",
+   "claim_id": "slatt.river_dominated_deltas#c10",
+   "is_analogy": false,
+   "on_screen": "Анализ кривой каротажа",
+   "role": "action"
+  },
+  {
+   "t_start": 102.17,
+   "t_end": 107.59,
+   "text": "Как выделить глинистые барьеры межрусловых заливаний по данным ГИС в вашей скважине?",
+   "claim_id": null,
+   "is_analogy": false,
+   "on_screen": "Поиск барьеров по ГИС",
+   "role": "transfer"
+  }
+ ],
+ "sources": [
+  {
+   "claim_id": "slatt.river_dominated_deltas#c8",
+   "page_or_dataset": "стр. 411",
+   "quote": "Interdistributary bays, marshes, and lagoons separate sandy facies and provide shale barriers in subsurface reservoirs, and sometimes, they provide hydrocarbon source rocks"
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c3",
+   "page_or_dataset": "стр. 411",
+   "quote": "With time and sufficient accommodation space between the sea surface and seafloor to accept sediment, such a delta will prograde seaward (Fig. 9.9), as will the delta zones"
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c5",
+   "page_or_dataset": "стр. 411",
+   "quote": "over time, progradation and vertical aggradation lead to a progressive shallowing of the water depth, to the point at which the main river(s) feeding sediment to its delta will shift toward deeper water"
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c10",
+   "page_or_dataset": "стр. 413",
+   "quote": "In the subsurface, these same features can be identified in cores and on well logs, including a lateral thinning and fining log response away from the channel axis (Fig. 9.15)."
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c8",
+   "page_or_dataset": "стр. 411",
+   "quote": "Interdistributary bays, marshes, and lagoons separate sandy facies and provide shale barriers in subsurface reservoirs, and sometimes, they provide hydrocarbon source rocks"
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c6",
+   "page_or_dataset": "стр. 411",
+   "quote": "During the past 4600 years, there have been no fewer than eight periods of channel and lobe switching on the Mississippi River Delta"
+  },
+  {
+   "claim_id": "slatt.river_dominated_deltas#c10",
+   "page_or_dataset": "стр. 413",
+   "quote": "In the subsurface, these same features can be identified in cores and on well logs, including a lateral thinning and fining log response away from the channel axis (Fig. 9.15)."
+  }
+ ],
+ "scene_spec": "work/test_slatt_9_4/video/test_slatt_9_4.river_dominated_deltas.long/spec.json",
+ "scene_objects": [
+  "карточки с мыслями автора",
+  "стрелки причин и следствий"
+ ],
+ "invariants": [
+  "pc.label_matches",
+  "pc.causality"
+ ],
+ "assumptions": [
+  "схема без масштаба, показывает только логику узла",
+  "Высокое сопротивление на каротаже не всегда означает нефтенасыщенный песчаный канал, это может быть плотный карбонат или уголь."
+ ],
+ "frames": [
+  {
+   "t": 0.3,
+   "class": "B",
+   "label": "схема",
+   "shot": "s_hook",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "t": 3.43,
+   "class": "B",
+   "label": "схема",
+   "shot": "s_cards",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "t": 78.47,
+   "class": "B",
+   "label": "схема",
+   "shot": "s_predict",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "t": 84.63,
+   "class": "B",
+   "label": "схема",
+   "shot": "s_reveal",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "t": 90.26,
+   "class": "B",
+   "label": "схема",
+   "shot": "s_scale",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "t": 96.61,
+   "class": "B",
+   "label": "схема",
+   "shot": "s_final",
+   "plaque": "схема, не в масштабе"
+  }
+ ],
+ "exaggerations": [
+  "схема: размеры условны"
+ ],
+ "prediction_question": "Как думаете, что разделяет песчаные фации распределительных каналов?",
+ "transfer_question": "Как выделить глинистые барьеры межрусловых заливаний по данным ГИС в вашей скважине?",
+ "data_it_bridge": "Данные ГИС и керна оцифровываются и загружаются в интерпретационные комплексы, где алгоритмы машинного обучения могут автоматически выделять тренды изменения зернистости.",
+ "physics_checklist": [
+  {
+   "item": "Порядок слоёв сохраняется во всех кадрах; молодые лежат на старых, если не показан надвиг или опрокидывание.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Разлом смещает слои согласованно по обе стороны; смещение не исчезает и не меняет знак между кадрами.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Несогласие показано как событие: размыв, перерыв, новое накопление.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Нефть и газ находятся в порах породы, а не в полостях и озёрах.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Газ над нефтью, нефть над водой; контакт горизонтален или оговорено иное.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Флюид движется от высокого давления к низкому; ловушка имеет покрышку.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Порядок операций и событий верный: причина раньше следствия.",
+   "answer": "да",
+   "note": "заявлено в спецификации"
+  },
+  {
+   "item": "Соблюдается баланс (масса, объём).",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Разрез, план и поверхность показывают одно и то же состояние.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Механизм прибора верный (ГК — собственное излучение, не «отражение»).",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Сигнал отделён от свойства: прибор измеряет отклик, свойство получают интерпретацией.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Названы условия применимости правила (напр., знак ПС зависит от соотношения минерализаций).",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Кривая синхронна с прибором и вычислена из той же модели.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Глубины, температуры, давления и размеры правдоподобны.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Преувеличения названы числом, а не только общей плашкой.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Оборудование и прибор не меняют конструкцию между кадрами.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Объекты не совмещены неправдоподобно.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Глубина растёт вниз; шкалы, единицы и полярность подписаны.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Вертикальное преувеличение подписано числом; метка происхождения соответствует тому, как сделан кадр.",
+   "answer": "да",
+   "note": "заявлено в спецификации"
+  },
+  {
+   "item": "Оборудование современное или помечено как историческое.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Гидростатическое давление растёт с глубиной и плотностью раствора; при циркуляции давление на забой выше статического.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Газ в закрытой скважине почти не может расшириться и, всплывая, поднимает давление по всему стволу; в открытой скважине газ расширяется, сильнее всего у устья.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Рост объёма раствора в приёмной ёмкости — признак притока из пласта, уменьшение — признак поглощения.",
+   "answer": "н/п",
+   "note": ""
+  },
+  {
+   "item": "Колонны, пакеры и оборудование на своих местах во всех кадрах; конструкция скважины не меняется между видами.",
+   "answer": "н/п",
+   "note": ""
+  }
+ ],
+ "audio_check": {
+  "voice": "ru-RU-DmitryNeural",
+  "synthesized": true,
+  "errors": [],
+  "tempo_wpm": 126.5,
+  "tempo_ok": true,
+  "loudness_lufs": -16.0,
+  "loudness_ok": true,
+  "sync_max_s": 0.083,
+  "sync_method": "кадр показывается, пока звучит его фраза (тайминг по длине синтеза)",
+  "wer": null,
+  "wer_note": "распознавание речи не подключено — термины проверить на слух",
+  "listen_list": [
+   "де́льта"
+  ],
+  "lines": [
+   {
+    "id": "L01",
+    "ok": true,
+    "error": null,
+    "words": 5,
+    "voice_text": "Куда деваются пески древних рек?",
+    "duration": 2.78
+   },
+   {
+    "id": "L02",
+    "ok": true,
+    "error": null,
+    "words": 12,
+    "voice_text": "Специалисты не могут точно предсказать распространение песчаных коллекторов в межрусловых зонах дельты.",
+    "duration": 6.0
+   },
+   {
+    "id": "L03",
+    "ok": true,
+    "error": null,
+    "words": 13,
+    "voice_text": "де́льта Миссисипи проградирует в сторону моря, потому что пространство для аккомодации заполнено осадками.",
+    "duration": 6.12
+   },
+   {
+    "id": "L04",
+    "ok": true,
+    "error": null,
+    "words": 7,
+    "voice_text": "Это процесс проградации и вертикальной агградации дельты.",
+    "duration": 4.08
+   },
+   {
+    "id": "L05",
+    "ok": true,
+    "error": null,
+    "words": 13,
+    "voice_text": "В разрезе особенности фаций выявляются по керну и каротажу с уменьшением зернистости кривой.",
+    "duration": 5.76
+   },
+   {
+    "id": "LA1",
+    "ok": true,
+    "error": null,
+    "words": 14,
+    "voice_text": "Эталон речной дельты — де́льта Миссисипи: здесь главную работу делает река, а не волны.",
+    "duration": 5.9
+   },
+   {
+    "id": "LA2",
+    "ok": true,
+    "error": null,
+    "words": 16,
+    "voice_text": "Берег защищён от сильных волн и течений, поэтому осадки не перемываются и не разносятся вдоль берега.",
+    "duration": 6.36
+   },
+   {
+    "id": "LA3",
+    "ok": true,
+    "error": null,
+    "words": 12,
+    "voice_text": "Песчаные коллекторы речной дельты — это отложения распределительных каналов и устьевых баров.",
+    "duration": 5.71
+   },
+   {
+    "id": "LA4",
+    "ok": true,
+    "error": null,
+    "words": 17,
+    "voice_text": "Пока между уровнем моря и дном хватает места, де́льта со всеми своими зонами наступает в сторону моря.",
+    "duration": 6.29
+   },
+   {
+    "id": "LA5",
+    "ok": true,
+    "error": null,
+    "words": 16,
+    "voice_text": "Наступление и наращивание вверх мелят водоём, и река выносит осадок всё дальше, в более глубокую воду.",
+    "duration": 6.62
+   },
+   {
+    "id": "LA6",
+    "ok": true,
+    "error": null,
+    "words": 11,
+    "voice_text": "Поэтому вверх по разрезу осадки становятся грубее: снизу тонкие, сверху крупнозернистые.",
+    "duration": 5.95
+   },
+   {
+    "id": "LA7",
+    "ok": true,
+    "error": null,
+    "words": 11,
+    "voice_text": "Линии одного геологического времени, клиноформы, при этом пересекают границы между фациями.",
+    "duration": 6.1
+   },
+   {
+    "id": "LA8",
+    "ok": true,
+    "error": null,
+    "words": 13,
+    "voice_text": "За последние 4600 лет русла и лопасти Миссисипи переключались не менее восьми раз.",
+    "duration": 5.95
+   },
+   {
+    "id": "L06",
+    "ok": true,
+    "error": null,
+    "words": 8,
+    "voice_text": "Как думаете, что разделяет песчаные фации распределительных каналов?",
+    "duration": 4.51
+   },
+   {
+    "id": "L07",
+    "ok": true,
+    "error": null,
+    "words": 10,
+    "voice_text": "Межрусловые заливы и марши образуют глинистые барьеры между песчаными телами.",
+    "duration": 5.28
+   },
+   {
+    "id": "L08",
+    "ok": true,
+    "error": null,
+    "words": 10,
+    "voice_text": "Схема показывает идеализированную структуру, а реальные переключения русел происходят нерегулярно.",
+    "duration": 6.0
+   },
+   {
+    "id": "L09",
+    "ok": true,
+    "error": null,
+    "words": 11,
+    "voice_text": "Автоматизируйте поиск латерального утонения кривой каротажа в сторону от оси канала.",
+    "duration": 5.21
+   },
+   {
+    "id": "L10",
+    "ok": true,
+    "error": null,
+    "words": 12,
+    "voice_text": "Как выделить глинистые барьеры межрусловых заливаний по данным гэ и эс в вашей скважине?",
+    "duration": 5.42
+   }
+  ]
+ },
+ "references": [
+  "фото-референсы организаторов: каротажный подъёмник, скважинные приборы"
+ ],
+ "mentor": {
+  "approved": false,
+  "note": ""
+ },
+ "planned_by": "сценарий: gemini-3.5-flash-lite; шаблон: специального шаблона нет — универсальная схема (в отчёте покрытия: нужен новый)",
+ "rebuild": "uv run g2c video-render work/test_slatt_9_4/video/test_slatt_9_4.river_dominated_deltas.long/spec.json"
+}

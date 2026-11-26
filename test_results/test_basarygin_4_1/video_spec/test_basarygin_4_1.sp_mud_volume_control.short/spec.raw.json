@@ -1,0 +1,271 @@
+{
+ "video_id": "test_basarygin_4_1.sp_mud_volume_control.short",
+ "chapter": "test_basarygin_4_1",
+ "node_id": "basarygin.sp_mud_volume_control",
+ "node_title": "Контроль объема и уровня бурового раствора",
+ "format": "short",
+ "template": "T0_schema_cards",
+ "objects": [
+  "карточки с мыслями автора",
+  "стрелки причин и следствий"
+ ],
+ "params": {
+  "cards": [
+   {
+    "text": "Признаком газонефтводопроявлений является увеличение объема или уровня бурового раствора в емкостях циркуляционной системы.",
+    "page": 231
+   },
+   {
+    "text": "Увеличение объема бурового раствора в приемных емкостях (повышение уровня) является прямым признаком притока пластового флюида.",
+    "page": 232
+   },
+   {
+    "text": "Для контроля уровня бурового раствора применяют уровнемеры различных конструкций.",
+    "page": 232
+   },
+   {
+    "text": "Минимальный объем поступившего в скважину флюида, фиксируемый устройствами измерения уровня, определяется формулой.",
+    "page": 233
+   }
+  ]
+ },
+ "invariants": [
+  "pc.label_matches",
+  "pc.causality"
+ ],
+ "assumptions": [
+  "схема без масштаба, показывает только логику узла",
+  "Увеличение объема раствора в приемных емкостях не требует немедленного внимания и может считаться погрешностью измерения."
+ ],
+ "exaggerations": [
+  {
+   "what": "схема без масштаба",
+   "factor": null,
+   "text": "схема: размеры условны"
+  }
+ ],
+ "shots": [
+  {
+   "id": "s_hook",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "intro"
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "id": "s_cards",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "cards"
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "id": "s_predict",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "mask"
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "id": "s_reveal",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "reveal"
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "id": "s_scale",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "scale",
+    "true_scale": true
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  },
+  {
+   "id": "s_final",
+   "template": "T0_schema_cards",
+   "state": {
+    "phase": "final"
+   },
+   "frame_class": "B",
+   "label": "схема",
+   "plaque": "схема, не в масштабе"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "role": "hook",
+   "text": "Как заметить приток флюида до аварии?",
+   "on_screen": "Рост объема раствора",
+   "claim_id": null,
+   "is_analogy": false,
+   "shot": "s_hook",
+   "t_start": 0.3,
+   "t_end": 3.28
+  },
+  {
+   "id": "L02",
+   "role": "problem",
+   "text": "Приток пластового флюида незаметно увеличивает общий объем или уровень бурового раствора в циркуляционной системе.",
+   "on_screen": "Признак проявления",
+   "claim_id": "basarygin.sp_mud_volume_control#c1",
+   "is_analogy": false,
+   "shot": "s_cards",
+   "t_start": 3.63,
+   "t_end": 10.18
+  },
+  {
+   "id": "L03",
+   "role": "solution",
+   "text": "Уровень растет в приемных емкостях, потому что поступает дополнительный объем флюида из пласта.",
+   "on_screen": "Рост в приемных емкостях",
+   "claim_id": "basarygin.sp_mud_volume_control#c2",
+   "is_analogy": false,
+   "shot": "s_cards",
+   "t_start": 10.53,
+   "t_end": 16.29
+  },
+  {
+   "id": "L04",
+   "role": "term",
+   "text": "Для фиксации такого изменения применяют специальные уровнемеры различных конструкций.",
+   "on_screen": "Уровнемеры раствора",
+   "claim_id": "basarygin.sp_mud_volume_control#c3",
+   "is_analogy": false,
+   "shot": "s_cards",
+   "t_start": 16.64,
+   "t_end": 21.92
+  },
+  {
+   "id": "L05",
+   "role": "data",
+   "text": "Минимальный объем притока определяется погрешностью уровнемера и площадью зеркала жидкости.",
+   "on_screen": "Погрешность и площадь",
+   "claim_id": "basarygin.sp_mud_volume_control#c5",
+   "is_analogy": false,
+   "shot": "s_cards",
+   "t_start": 22.27,
+   "t_end": 27.96
+  },
+  {
+   "id": "L06",
+   "role": "predict",
+   "text": "Как думаете, что будет с чувствительностью датчика, если уменьшить площадь поверхности емкости?",
+   "on_screen": "Вопрос про чувствительность",
+   "claim_id": null,
+   "is_analogy": false,
+   "shot": "s_predict",
+   "t_start": 28.31,
+   "t_end": 34.12
+  },
+  {
+   "id": "L07",
+   "role": "answer",
+   "text": "Чувствительность вырастет, так как уменьшение площади поверхности уменьшает минимально регистрируемый объем проявления.",
+   "on_screen": "Рост чувствительности",
+   "claim_id": "basarygin.sp_mud_volume_control#c7",
+   "is_analogy": false,
+   "shot": "s_reveal",
+   "t_start": 35.77,
+   "t_end": 42.61
+  },
+  {
+   "id": "L08",
+   "role": "honesty",
+   "text": "Схема условна: размеры емкостей фиксированы, а реальные переключения зависят от строгого соблюдения регламента.",
+   "on_screen": "Схема условна",
+   "claim_id": "basarygin.sp_mud_volume_control#c14",
+   "is_analogy": false,
+   "shot": "s_scale",
+   "t_start": 42.96,
+   "t_end": 49.8
+  },
+  {
+   "id": "L09",
+   "role": "action",
+   "text": "Для точного поиска притока работающую приемную емкость изолируют и устанавливают перегородку.",
+   "on_screen": "Изоляция емкости",
+   "claim_id": "basarygin.sp_mud_volume_control#c10",
+   "is_analogy": false,
+   "shot": "s_final",
+   "t_start": 50.15,
+   "t_end": 55.91
+  },
+  {
+   "id": "L10",
+   "role": "transfer",
+   "text": "Как в вашем ПО для анализа временных рядов учесть изменение площади емкостей при расчете дельт?",
+   "on_screen": "Задача на анализ данных",
+   "claim_id": null,
+   "is_analogy": false,
+   "shot": "s_final",
+   "t_start": 56.26,
+   "t_end": 62.02
+  }
+ ],
+ "prediction_question": "Как думаете, что будет с чувствительностью датчика, если уменьшить площадь поверхности емкости?",
+ "transfer_question": "Как в вашем ПО для анализа временных рядов учесть изменение площади емкостей при расчете дельт?",
+ "data_it_bridge": "Данные поступают с датчиков уровня в приемных емкостях. ИТ-модели обрабатывают временные ряды объема и площади зеркала жидкости для расчета минимального фиксируемого притока Delta V min.",
+ "sources": [
+  {
+   "claim_id": "basarygin.sp_mud_volume_control#c1",
+   "page_or_dataset": "стр. 231",
+   "quote": "- увеличение объема (уровня) бурового раствора в емкостях циркуляционной системы;"
+  },
+  {
+   "claim_id": "basarygin.sp_mud_volume_control#c2",
+   "page_or_dataset": "стр. 232",
+   "quote": "Увеличение объема бурового раствора в приемных емкостях, выражающееся повышением его уровня, является прямым признаком притока в скважину пластового флюида."
+  },
+  {
+   "claim_id": "basarygin.sp_mud_volume_control#c3",
+   "page_or_dataset": "стр. 232",
+   "quote": "Уровень бурового раствора контролируют с помощью уровнемеров различных конструкций."
+  },
+  {
+   "claim_id": "basarygin.sp_mud_volume_control#c5",
+   "page_or_dataset": "стр. 233",
+   "quote": "$$\\Delta V_{\\min} = \\varepsilon S,$$"
+  },
+  {
+   "claim_id": "basarygin.sp_mud_volume_control#c7",
+   "page_or_dataset": "стр. 233",
+   "quote": "Посредством изменения площади поверхности раствора можно менять минимальное значение регистрируемого объема проявления, как это показано на рис. 4.2."
+  },
+  {
+   "claim_id": "basarygin.sp_mud_volume_control#c14",
+   "page_or_dataset": "стр. 234",
+   "quote": "переключают насосы, приемную емкость, перераспределяют объемы бурового раствора только с ведома бурильщика;"
+  },
+  {
+   "claim_id": "basarygin.sp_mud_volume_control#c10",
+   "page_or_dataset": "стр. 234",
+   "quote": "изолируют приемную емкость, через которую ведется циркуляция, от других;"
+  }
+ ],
+ "references": [
+  "фото-референсы организаторов: каротажный подъёмник, скважинные приборы"
+ ],
+ "school": "русская школа ГИС",
+ "voice": "ru-RU-DmitryNeural",
+ "mentor_approved": false,
+ "mentor_note": "",
+ "planned_by": "сценарий: gemini-3.5-flash-lite; шаблон: специального шаблона нет — универсальная схема (в отчёте покрытия: нужен новый)",
+ "layer_file": ""
+}

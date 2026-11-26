@@ -1,0 +1,155 @@
+{
+ "chapter": "test_basarygin_4_1",
+ "routes": [
+  {
+   "node_id": "basarygin.drilling_safety_measures",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "basarygin.sp_fluid_signs_intro",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=1, cause_effect=1 (сумма 5)."
+  },
+  {
+   "node_id": "basarygin.sp_mud_volume_control",
+   "format": "интерактив",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=1, cause_effect=1 (сумма 5)."
+  },
+  {
+   "node_id": "basarygin.sp_flow_rate_monitoring",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 2,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; таблицы и формулы — в интерактив, не в ролик (ТЗ); узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=2, invisible=1, scale=0, counterintuitive=1, cause_effect=1 (сумма 5)."
+  },
+  {
+   "node_id": "basarygin.sp_tripping_operations_control",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=1, cause_effect=2 (сумма 5)."
+  },
+  {
+   "node_id": "basarygin.sp_gas_saturation_analysis",
+   "format": "шортс",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 2,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "T3 пласт с флюидами и контактами",
+   "why": "тип трудности М: ведущий формат — шортс. Критерии видеоёмкости: time=2, invisible=2, scale=0, counterintuitive=1, cause_effect=2 (сумма 7)."
+  },
+  {
+   "node_id": "basarygin.sp_drilling_speed_anomalies",
+   "format": "шортс",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 2,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T3 пласт с флюидами и контактами",
+   "why": "тип трудности М: ведущий формат — шортс. Критерии видеоёмкости: time=2, invisible=2, scale=0, counterintuitive=1, cause_effect=0 (сумма 5)."
+  },
+  {
+   "node_id": "basarygin.sp_pump_pressure_redistribution",
+   "format": "шортс",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T3 пласт с флюидами и контактами",
+   "why": "тип трудности М: ведущий формат — шортс. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=1, cause_effect=1 (сумма 5)."
+  },
+  {
+   "node_id": "basarygin.well_closing_methods",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 2,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=2, invisible=2, scale=1, counterintuitive=1, cause_effect=2 (сумма 8)."
+  },
+  {
+   "node_id": "basarygin.killing_methods_and_circulations",
+   "format": "шортс",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 2,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T3 пласт с флюидами и контактами",
+   "why": "тип трудности М: ведущий формат — шортс. Критерии видеоёмкости: time=2, invisible=2, scale=0, counterintuitive=1, cause_effect=0 (сумма 5)."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+$ g2c build test_asquith_ch7 --no-video --no-llm-glossary
+### ЭТАП 1/7: Разбор главы и сканы
+{
+    'chapter': 'test_asquith_ch7',
+    'pages': 18,
+    'units': 396,
+    'kinds': {'paragraph': 294, 'heading': 32, 'figure': 16, 'formula': 45, 'table': 9},
+    'figures_with_model_description': 7,
+    'figures_without_description': 9,
+    'ocr_suspect': [],
+    'errata': 'нет',
+    'prereq_units': 0
+}
+Внимание: в PDF 260 стр., в md последняя метка — 256. Сверьте нумерацию.
+Готово: 18 сканов в C:\Users\kosta\Documents\glava-kurs\work\test_asquith_ch7\scans
+### ЭТАП 2/7: Учебный слой
+[12:30:45] Проход 1 — утверждения: 396 единиц, 15 порций
+[12:30:55]   стр. 129–129: 26 утв., 0 примеров, 0 задач (10.0 с)
+[12:30:55]   стр. 126–126: 21 утв., 0 примеров, 0 задач (10.15 с)
+[12:30:56]   стр. 127–127: 35 утв., 0 примеров, 0 задач (10.51 с)
+[12:30:58]   стр. 128–128: 28 утв., 0 примеров, 0 задач (12.38 с)
+[12:31:08]   стр. 132–132: 30 утв., 0 примеров, 0 задач (12.39 с)
+[12:31:50]   стр. 130–130: 25 утв., 0 примеров, 0 задач (54.79 с)
+[12:31:51]   стр. 131–131: 25 утв., 0 примеров, 0 задач (55.9 с)
+[12:31:53]   стр. 133–133: 37 утв., 0 примеров, 0 задач (55.71 с)
+[12:31:58]   стр. 135–135: 23 утв., 0 примеров, 0 задач (8.41 с)
+[12:31:59]   стр. 136–136: 29 утв., 0 примеров, 0 задач (7.83 с)
+[12:32:01]   стр. 134–134: 20 утв., 0 примеров, 1 задач (53.24 с)
+[12:32:47]   стр. 140–141: 21 утв., 0 примеров, 0 задач (53.2 с)
+[12:32:53]   стр. 142–143: 11 утв., 3 примеров, 0 задач (54.18 с)
+[12:32:53]   стр. 146–146: 8 утв., 1 примеров, 0 задач (51.62 с)
+[12:32:53]   стр. 144–145: 20 утв., 2 примеров, 0 задач (54.06 с)
+[12:32:54]   проверка: 288 из 359 верны сразу, на исправление 71
+[12:33:49]   после исправления: отброшено 31
+[12:33:49] Проход 2 — план узлов из 328 утверждений, 6 порций по разделам
+[12:33:52]   GENERAL: 42 утв. → 3 узлов (3.26 с)
+[12:33:53]   Ratio Method: 53 утв. → 4 узлов (4.01 с)
+[12:33:53]   SATURATION CROSSPLOTS: 54 утв. → 4 узлов (4.5 с)
+[12:33:54]   Apparent water resistivity ($R_{wa}$): 65 утв. → 4 узлов (5.54 с)
+[12:33:57]   Hingle Crossplot Method: 63 утв. → 5 узлов (4.94 с)
+[12:33:58]   Carbonates:: 51 утв. → 4 узлов (5.2 с)
+[12:33:58]   узлов: 24
+[12:33:58] Проход 4 — поля узлов: 24 узлов, 6 вызовов
+[12:34:10]   conductivity_derived_porosity, wet_resistivity_ro, bulk_volume_water, saturation_crossplots_intro (12.18 с)
+[12:34:11]   ratio_advanced_and_consistency, express_methods_overview, patterns_rxo_rt_sp, apparent_water_resistivity (12.71 с)
+[12:34:14]   pickett_crossplot_basis, pickett_axes_and_geometry, pickett_interpretation_and_saturation, hingle_crossplot_method (15.97 с)
+[12:35:06]   intro_and_reconnaissance, archie_water_saturations, evaluation_and_sxo, ratio_method_basics (68.03 с)
+[12:35:09]   carbonates_log_features, buckles_plots_analysis, pickett_plot_interpretation, hingle_plot_interpretation (58.48 с)
+[12:36:07]   permeability_from_logs, methods_comparison_and_limits, shaly_sand_analysis, clastics_initial_scanning (116.87 с)
+[12:36:07] Проход 5 — покрытие: 123 единиц без узла
+[12:36:17] Готово: {'chapter': 'test_asquith_ch7', 'nodes': 24, 'prereq_nodes': 0, 'claims': 328, 'dropped_claims': 31, 'worked_examples': 6, 'book_tasks': 1, 'coverage': '396/396', 'final_issues': 3, 'minutes': 5.5}
+### ЭТАП 3/7: Маршрутизация форматов
+{'nodes': 24, 'formats': {'карточки': 6, 'интерактив': 5, 'практикум на данных': 9, 'шортс': 2, 'текст': 2}, 'schema_errors': 0}
+### ЭТАП 4/7: Глоссарий
+{'added': 36, 'total': 84, 'notation_applied': 52, 'notation_new_entries': 48, 'english_from_books': 0, 'with_book_definition': 0, 'without_definition': 36}
+### ЭТАП 5/7: Задания
+[12:36:19] Задания: 24 шагов, 6 запросов
+[12:36:25]   6 заданий для 4 шагов (5.45 с)
+[12:36:25]   4 заданий для 4 шагов (5.94 с)
+[12:36:27]   7 заданий для 4 шагов (7.88 с)
+[12:36:30]   4 заданий для 4 шагов (10.14 с)
+[12:36:30]   4 заданий для 4 шагов (4.92 с)
+[12:36:33]   8 заданий для 4 шагов (7.7 с)
+[12:36:33]   добираю тип multiple
+[12:36:40]   5 заданий для 3 шагов (6.71 с)
+[12:36:40]   добираю тип order
+[12:36:43]   3 заданий для 3 шагов (3.54 с)
+[12:36:43]   добираю тип calc
+[12:36:46]   3 заданий для 3 шагов (2.72 с)
+[12:36:46] Готово: {'tasks': 25, 'types': ['calc', 'gap', 'multiple', 'order', 'single'], 'dropped': 19, 'need_review': 3, 'meets_tz': True}
+### ЭТАП 6/7: Ролик
+### ЭТАП 7/7: Сайт курса
+Курс: C:\Users\kosta\Documents\glava-kurs\out\test_asquith_ch7\index.html (0.6 МБ)
+Формулы: 404, не перевелись 0
+### ИТОГ: выполнено 6 из 7
+### ПРОПУЩЕНО: Ролик: выключен
+
+### EXIT 0

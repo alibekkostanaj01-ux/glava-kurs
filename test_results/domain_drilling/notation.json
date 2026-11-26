@@ -1,0 +1,175 @@
+{
+ "_comment": "Обозначения русской школы бурения ↔ западная терминология (IADC / IWCF well control). Общепринятые соответствия, не текст книги: source='нотация'. Специалист по бурению проверяет и ставит reviewed=true.",
+ "entries": [
+  {
+   "group": "Контроль скважины",
+   "ru": "ГНВП",
+   "ru_name": "газонефтеводопроявление",
+   "west": "kick",
+   "west_name": "influx of formation fluid",
+   "las": "",
+   "unit": "",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "выброс",
+   "ru_name": "неуправляемый выброс (открытый фонтан)",
+   "west": "blowout",
+   "west_name": "uncontrolled flow",
+   "las": "",
+   "unit": "",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "ΔV",
+   "ru_name": "прирост объёма в приёмной ёмкости",
+   "west": "pit gain",
+   "west_name": "",
+   "las": "",
+   "unit": "м³",
+   "note": "прямой признак притока"
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "перелив",
+   "ru_name": "перелив при остановленных насосах",
+   "west": "flow check / well flowing",
+   "west_name": "",
+   "las": "",
+   "unit": "",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "ПВО",
+   "ru_name": "противовыбросовое оборудование",
+   "west": "BOP",
+   "west_name": "blowout preventer",
+   "las": "",
+   "unit": "",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "превентор плашечный",
+   "ru_name": "плашечный превентор",
+   "west": "ram preventer",
+   "west_name": "",
+   "las": "",
+   "unit": "",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "превентор универсальный",
+   "ru_name": "кольцевой (универсальный) превентор",
+   "west": "annular preventer",
+   "west_name": "",
+   "las": "",
+   "unit": "",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "дроссель",
+   "ru_name": "регулируемый штуцер",
+   "west": "choke",
+   "west_name": "adjustable choke",
+   "las": "",
+   "unit": "",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "Pт",
+   "ru_name": "избыточное давление в бурильных трубах после закрытия",
+   "west": "SIDPP",
+   "west_name": "shut-in drill pipe pressure",
+   "las": "",
+   "unit": "МПа",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "Pк",
+   "ru_name": "избыточное давление в затрубном пространстве после закрытия",
+   "west": "SICP",
+   "west_name": "shut-in casing pressure",
+   "las": "",
+   "unit": "МПа",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "АВПД",
+   "ru_name": "аномально высокое пластовое давление",
+   "west": "abnormal (over)pressure",
+   "west_name": "",
+   "las": "",
+   "unit": "МПа",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "ρ",
+   "ru_name": "плотность бурового раствора",
+   "west": "MW",
+   "west_name": "mud weight",
+   "las": "",
+   "unit": "г/см³",
+   "note": "в США — ppg"
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "vм",
+   "ru_name": "механическая скорость бурения",
+   "west": "ROP",
+   "west_name": "rate of penetration",
+   "las": "",
+   "unit": "м/ч",
+   "note": "«скачок проходки» = drilling break"
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "газирование",
+   "ru_name": "газирование бурового раствора",
+   "west": "gas-cut mud",
+   "west_name": "",
+   "las": "",
+   "unit": "",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "СПО",
+   "ru_name": "спускоподъёмные операции",
+   "west": "tripping",
+   "west_name": "",
+   "las": "",
+   "unit": "",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "метод бурильщика",
+   "ru_name": "глушение двумя циркуляциями",
+   "west": "driller's method",
+   "west_name": "",
+   "las": "",
+   "unit": "",
+   "note": ""
+  },
+  {
+   "group": "Контроль скважины",
+   "ru": "метод ожидания и утяжеления",
+   "ru_name": "глушение одной циркуляцией утяжелённым раствором",
+   "west": "wait-and-weight method",
+   "west_name": "",
+   "las": "",
+   "unit": "",
+   "note": ""
+  }
+ ]
+}
