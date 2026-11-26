@@ -1,0 +1,15 @@
+{
+ "package_id": "test_asquith",
+ "team": "glava-kurs",
+ "remarks": [
+  {
+   "target": "C053",
+   "category": "wrong_scaling",
+   "severity": "significant",
+   "problem": "Проверка кодом (numbers): числа «0.14» нет на стр. 142",
+   "fix": "Исправить по цитате автора: «For the two points of interest (both having the same porosity), $R_{a} = 0.80$ ohm-m.»",
+   "page_pdf": 142,
+   "quote": "For the two points of interest (both having the same porosity), $R_{a} = 0.80$ ohm-m."
+  }
+ ]
+}
